@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<?php include("header.php") ?>
+	</head>
+	<body >
+		<div class="header">
+			<h1>热控班组管理平台</h1>
+		</div>
+		<div class="topnav">
+			<?php include("../../lib/topnav/topnav2.php") ?>
+		</div>
+		<div class="row">
+			<div class="leftcolumn">
+				<div class="card">
+					<h2><center>缺陷登记<center></h2>
+	<label>DD:</label><input type="text" value=0 id="D" onblur="myFunction(this.id)">
+	<label>L1:</label><input type="text" value=0 id="L1" onblur="myFunction(this.id)">
+	<label>L2:</label><input type="text" value=0 id="L2" onblur="myFunction(this.id)">
+	<br>
+	<label>A1:</label><input type="text" value=0 id="A1" onblur="myFunction(this.id)">
+	<label>B1:</label><input type="text" value=0 id="B1" onblur="myFunction(this.id)">
+	<label>C1:</label><input type="text" value=0 id="C1" onblur="myFunction(this.id)">
+	<br>
+
+	<label>A2:</label><input type="text" value=0 id="A2" onblur="myFunction(this.id)">
+	<label>B2:</label><input type="text" value=0 id="B2" onblur="myFunction(this.id)">
+	<label>C2:</label><input type="text" value=0 id="C2" onblur="myFunction(this.id)">
+	<br>
+
+	<label>A3:</label><input type="text" value=0 id="A3" onblur="myFunction(this.id)">
+	<label>B3:</label><input type="text" value=0 id="B3" onblur="myFunction(this.id)">
+	<label>C3:</label><input type="text" value=0 id="C3" onblur="myFunction(this.id)">
+	<br>
+	<label>A4:</label><input type="text" value=0 id="A4" onblur="myFunction(this.id)">
+	<label>B4:</label><input type="text" value=0 id="B4" onblur="myFunction(this.id)">
+	<label>C4:</label><input type="text" value=0 id="C4" onblur="myFunction(this.id)">
+	<br>
+	<span id="A13">上下外圈</span>
+	<span id="A24">左右外圈</span>
+	<span id="B24">上下张口</span>
+	<span id="B13">左右张口</span>
+	<br>
+	<span id="Q">前地脚</span>
+	<span id="H">后地脚</span>
+	<span id="L">左移位</span>
+	<span id="R">左移位</span>
+	<br>
+	<input type="reset">
+	<input type="button" value="计算结果！" onclick="check()"></input>
+
+
+
+<p>当离开输入字段时，会触发一个函数，将输入文本转换为大写。</p>
+
+
+				</div>
+			</div>
+			<div class="rightcolumn">
+				<div class="card">
+					<?php include("../../sidebar/ShowQRCode.php") ?>
+				</div>
+				<div class="card">
+					<ul class="right">
+						<li><a href="quick_select_defect.php?id=10">当天缺陷</a></li>
+						<li><a href="quick_select_defect.php?id=20">昨天缺陷</a></li>
+						<li><a href="quick_select_defect.php?id=30">本周缺陷</a></li>
+						<li><a href="quick_select_defect.php?id=40">上周缺陷</a></li>
+						<li><a href="quick_select_defect.php?id=50">本月缺陷</a></li>
+						<li><a href="quick_select_defect.php?id=60">上月缺陷</a></li>
+						<li><a href="add_defect.php">新增缺陷</a></li>
+					</ul>
+				<div class="card">
+					<?php include("../../sidebar/quick_index.php") ?>
+				</div>
+				</div>
+				<div class="card">
+				<!--最新通知-->
+					<?php include("../../sidebar/notice.php")?>
+				</div>
+				<div class="card">
+				<!--最新资讯-->
+					<?php include("../../sidebar/news.php")?>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<?php include("../../lib/footer/footer.php")?>
+		</div>
+	</body>
+</html>
