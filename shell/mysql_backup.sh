@@ -4,7 +4,8 @@ DB_USER="root"
 DB_PASS="dk1314lich,forever!"
 DB_NAME1="db_rekong"
 DB_NAME2="db_huapen"
-BACK_DIR="/var/www/html/mysql_backup"
+#BACK_DIR="/var/www/html/mysql_backup"
+BACK_DIR="/var/www/html/my_data/mysql_backup"
 DATE=`date +%F`
 yestoday=$(date -d '-7 day' +%Y-%m-%d)
 
