@@ -1,20 +1,6 @@
 <?php
-// 允许上传的图片后缀
-//$allowedExts = array("gif", "jpeg", "jpg", "png");
-//$temp = explode(".", $_FILES["file"]["name"]);
-//echo $_FILES["file"]["size"];
-//$extension = end($temp);     // 获取文件后缀名
-/*
-if ((($_FILES["file"]["type"] == "image/gif")
-|| ($_FILES["file"]["type"] == "image/jpeg")
-|| ($_FILES["file"]["type"] == "image/jpg")
-|| ($_FILES["file"]["type"] == "image/pjpeg")
-|| ($_FILES["file"]["type"] == "image/x-png")
-|| ($_FILES["file"]["type"] == "image/png"))
-&& ($_FILES["file"]["size"] < 204800)   // 小于 200 kb
-&& in_array($extension, $allowedExts))
- */
-if($_FILES["file"]["size"] < 104857600)   // 小于 100MB 
+$tmpDir = $_SERVER['DOCUMENT_ROOT']."/my_data/dkfile/tmp/";
+if($_FILES["file"]["size"] < 104857600)   // 小于 100MB ,修改此处可以限制上传文件大小
 {
     if ($_FILES["file"]["error"] > 0)
     {
@@ -29,16 +15,16 @@ if($_FILES["file"]["size"] < 104857600)   // 小于 100MB
         
         // 判断当前目录下的 upload 目录是否存在该文件
         // 如果没有 upload 目录，你需要创建它，upload 目录权限为 777
-        if (file_exists("tmp/" . $_FILES["file"]["name"]))
+        if (file_exists($tmpDir . $_FILES["file"]["name"]))
         {
             echo $_FILES["file"]["name"] . " 文件已经存在。 ";
-	    if (unlink("tmp/" . $_FILES["file"]["name"]))
+	    if (unlink($tmpDir . $_FILES["file"]["name"]))
 	    {
             	echo $_FILES["file"]["name"] . " 文件已成功删除！ ";
-            	$result=move_uploaded_file($_FILES["file"]["tmp_name"], "tmp/" . $_FILES["file"]["name"]);
+            	$result=move_uploaded_file($_FILES["file"]["tmp_name"], $tmpDir . $_FILES["file"]["name"]);
 	    	if($result){
             //echo "上传成功!";
-            		echo "文件存储在: " . "tmp/" . $_FILES["file"]["name"];
+            		echo "文件存储在: " . $tmpDir . $_FILES["file"]["name"];
             		echo "<script>alert('上传成功！');location='upload.php';</script>";
 	    	}else{
             		echo "上传失败!";
@@ -52,10 +38,10 @@ if($_FILES["file"]["size"] < 104857600)   // 小于 100MB
         else
         {
             // 如果 upload 目录不存在该文件则将文件上传到 upload 目录下
-            $result=move_uploaded_file($_FILES["file"]["tmp_name"], "tmp/" . $_FILES["file"]["name"]);
+            $result=move_uploaded_file($_FILES["file"]["tmp_name"], $tmpDir . $_FILES["file"]["name"]);
 	    if($result){
             //echo "上传成功!";
-            echo "文件存储在: " . "tmp/" . $_FILES["file"]["name"];
+            echo "文件存储在: " . $tmpDir . $_FILES["file"]["name"];
             echo "<script>alert('上传成功！');location='upload.php';</script>";
 	    }else{
             echo "上传失败!";

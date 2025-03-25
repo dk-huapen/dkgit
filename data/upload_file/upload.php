@@ -25,7 +25,7 @@ include("header.php")
 <?php
 // 获取当前文件的上级目录
 //$con = dirname(__FILE__);
-$con = "tmp";
+$con = $_SERVER['DOCUMENT_ROOT']."/my_data/dkfile/tmp";
 // 扫描$con目录下的所有文件
 $filename = scandir($con);
 for($i=0;$i<count($filename);$i++){
@@ -33,7 +33,7 @@ for($i=0;$i<count($filename);$i++){
 <tr>
 <td style="width:10%"><center><?php echo $i ?><center></td>
 <td style="width:80%"><center><?php echo $filename[$i] ?><center></td>
-<td width="10%"><center><a target="_blank" href="<?php echo "tmp/".$filename[$i] ?>"><img border=0 src='../../images/info.png' alt='查看'></a></center> </td>
+<td width="10%"><center><a target="_blank" href="<?php echo "/my_data/dkfile/tmp/".$filename[$i] ?>"><img border=0 src='../../images/info.png' alt='查看'></a></center> </td>
 </tr>
 <?php
 }
