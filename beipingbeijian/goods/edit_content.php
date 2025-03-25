@@ -77,7 +77,9 @@
     							<input type="submit" name="submit" value="上传">     <span style="color:red">注意：最大上传2M的图片,有五角星表示该备件照片已存在，可直接点击查看！</span>
 						</form>
 						<?php
-						$file='img/'.$goods_id.'/'.$goods_id.'_dnt.webp';
+							$goodsImageDir = $_SERVER['DOCUMENT_ROOT']."/my_data/image/goodsImg/";
+						$url= "/my_data/image/goodsImg/".$goods_id.'/'.$goods_id.'_dnt.webp';
+						$file=$goodsImageDir.$goods_id.'/'.$goods_id.'_dnt.webp';
 						echo $file;
 						if(file_exists($file)){
 							echo "&#9733";
@@ -88,7 +90,7 @@
 					<?php
 					if(file_exists($file)){
 						//echo "<input onclick=\"showImage('hidden_img','myimage','img/".$goods_id.".jpg')\" type='button' value='点我显示/或隐藏图片'/>";
-						echo "<input onclick=\"showImage('hidden_img','myimage','".$file."')\" type='button' value='点我显示/或隐藏图片'/>";
+						echo "<input onclick=\"showImage('hidden_img','myimage','".$url."')\" type='button' value='点我显示/或隐藏图片'/>";
 						//echo "<input onclick=\"showImage('hidden_img','myimage','img/".$goods_id."/".$goods_id."._dnt.webp')\" type='button' value='点我显示/或隐藏图片'/>";
 					}
 					?>

@@ -2,7 +2,8 @@
 		if(!empty($_GET['submit'])){
 			$work_ticket_id = $_POST["work_ticket_id"]; 
 			$work_ticket_number = $_POST["work_ticket_number"]; 
-			$path="img/";//上传路径
+			$goodsImgDir = $_SERVER['DOCUMENT_ROOT']."/my_data/image/goodsImg/";
+			$path=$goodsImgDir;//上传路径
 			if(!file_exists($path)){
 				mkdir("$path",0700);
 			}
@@ -17,7 +18,7 @@
 				exit();
 			}
 			if($_FILES["filename"]["name"]){
-			$file_path="img/".$work_ticket_number;
+			$file_path=$goodsImgDir.$work_ticket_number;
 			if(!file_exists($file_path)){
 				if(mkdir("$file_path")){
 					echo $file_path."文件夹创建成功";
