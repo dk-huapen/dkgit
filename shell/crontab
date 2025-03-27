@@ -20,6 +20,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 47 6	* * 7	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; }
 52 6	1 * *	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.monthly; }
 #
-15 16 * * * root /var/www/html/shell/mysql_backup.sh >> /var/www/html/my_data/mysql_backup/mysql_backup.log 2>&1
+15 16 * * * root /var/www/html/dkcode/shell/mysql_backup.sh >> /var/www/html/my_data/mysql_backup/mysql_backup.log 2>&1
 
-55 23 * * * root /var/www/html/shell/diary.sh
+55 23 * * * root /var/www/html/dkcode/shell/diary.sh
