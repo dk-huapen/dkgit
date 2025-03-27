@@ -7,6 +7,7 @@
 <li id="r"><a href="../../management/management.php">班组管理</a></li>
 <li id="f"><a href="../../peixunziliao/peixunziliao.php">培训资料</a></li>
 <li id="j"><a href="../../beipingbeijian/beipingbeijian.php">备品备件</a></li>
+<li id="g"><a href="../../beipingbeijian/beipingbeijian.php">小工具</a></li>
 <li id="e"><a href="../../help/help.php">帮助</a></li>
 </ul>
 </div>

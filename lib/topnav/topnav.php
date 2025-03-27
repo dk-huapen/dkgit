@@ -5,4 +5,5 @@
 <a href="management/management.php">班组管理</a>
 <a href="peixunziliao/peixunziliao.php">班组培训</a>
 <a href="beipingbeijian/beipingbeijian.php">备品备件</a>
+<a href="beipingbeijian/beipingbeijian.php">小工具</a>
 <a href="../../help/help.php">帮助</a>
