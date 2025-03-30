@@ -4,8 +4,8 @@
 <title>2024年7月份碳核查测点历史数据查询</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="../../diary_css/my_diary.css" />
-<script type="text/javascript"src="dygraph.js"></script>
-<link rel="stylesheet" type="text/css"src="dygraph.css" />
+<script type="text/javascript"src="../../lib/dygraph.js"></script>
+<link rel="stylesheet" type="text/css"src="../../diary_css/dygraph.css" />
 </head>
 		<script type="text/javascript">
 			function check(table,info){
