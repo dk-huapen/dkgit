@@ -9,3 +9,7 @@
 ## phpmyadmin  MariaDB数据库可视化管理工具phpmyadmin
 ## .gitignore  git分布式版本控制系统忽略跟踪指定文件的配置文件
 ## sis  SIS系统文件目录
+- conn.php  SIS系统数据库连接文件
+- historySql.php SIS系统各设备操作面板二维码生成
+- mian.php  SIS系统首页
+- 
