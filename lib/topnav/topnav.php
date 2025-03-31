@@ -5,5 +5,5 @@
 <a href="/dkcode/management/management.php">班组管理</a>
 <a href="/dkcode/peixunziliao/peixunziliao.php">班组培训</a>
 <a href="/dkcode/beipingbeijian/beipingbeijian.php">备品备件</a>
-<a href="/dkcode/beipingbeijian/beipingbeijian.php">小工具</a>
+<a href="/dkcode/applet/applet.php">小工具</a>
 <a href="/dkcode/help/help.php">帮助</a>
