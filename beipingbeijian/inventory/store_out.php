@@ -45,7 +45,7 @@
 		</div>
 		<div class="topnav">
 			<?php include("../../lib/look_goods.php") ?>
-			<?php include("../../lib/topnav/topnav2.php") ?>
+			<?php include("../../lib/topnav/topnav.php") ?>
 		</div>
 		<div class="row">
 			<div class="leftcolumn">

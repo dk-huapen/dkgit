@@ -8,7 +8,7 @@
 			<h1>热控班组管理平台</h1>
 		</div>
 		<div class="topnav">
-			<?php include("../../lib/topnav/topnav2.php");
+			<?php include("../../lib/topnav/topnav.php");
 	$url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING'];
  ?>
 		</div>
