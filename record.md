@@ -1,3 +1,4 @@
 - [ ] dkcode下header文件核查，应该时没用
 - [ ] sidebar文件夹下notice功能重写，更新为ajax模式
 - [ ] class文件夹下删除不需要的文件，写class帮助文件
+- [ ] sis系统新增一个页面，将js提取合并
