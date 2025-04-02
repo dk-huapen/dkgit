@@ -13,3 +13,9 @@
 - historySql.php SIS系统各设备操作面板二维码生成
 - mian.php  SIS系统首页
 - 
+## sidebar  侧边栏模块
+- ShowQRCode.php  生成并显示当前页面二维码
+- quick_index.php  快速搜索栏，不论在任何页面可以直接搜索对应记录
+- news.php  开发者关于项目相关消息发布栏
+- notice.php  用户信息发布栏
+- out_news.php  用户发布信息后服务器端信息处理脚本
