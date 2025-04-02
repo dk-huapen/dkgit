@@ -1,4 +1,7 @@
 # 目录结构
+## README.md  项目介绍
+## help.md  项目目录树结构介绍文件
+## record.md  记录项目需修改或维护信息
 ## index.html  登录页面
 ## shell   shell自动运行脚本
 - diary.sh    保存当天日志至指定文件夹下并发送邮件至指定邮箱
@@ -11,8 +14,11 @@
 ## sis  SIS系统文件目录
 - conn.php  SIS系统数据库连接文件
 - historySql.php SIS系统各设备操作面板二维码生成
+- updateValueSql.php  SIS系统动态更新测点值的文件
 - mian.php  SIS系统首页
-- 
+- myScript.js  SIS系统JS函数定义
+- mystyle.css  SIS系统CSS样式定义
+- qishui.php  汽水系统文件
 ## sidebar  侧边栏模块
 - ShowQRCode.php  生成并显示当前页面二维码
 - quick_index.php  快速搜索栏，不论在任何页面可以直接搜索对应记录
@@ -20,7 +26,7 @@
 - notice.php  用户信息发布栏
 - out_news.php  用户发布信息后服务器端信息处理脚本，需查看
 ## header  头文件，需修改
-## lib
+## lib  项目所需库文件
 - class  类定义文件
 - footer  网站页角模块
 - fpdf  php生成PDF文件的库文件和脚本
