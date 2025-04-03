@@ -88,8 +88,8 @@
             		menu.style.display = 'block';
             		menu.style.left = `${event.pageX}px`;
             		menu.style.top = `${event.pageY}px`;
-            		document.getElementById('kks').innerHTML=kks;
-            		document.getElementById('name').innerHTML=name;
+            		document.getElementById('tipKKS').innerHTML=kks;
+            		document.getElementById('tipName').innerHTML=name;
 		}
 		function mOut(){
 			document.getElementById("vartip").style.display="none"
