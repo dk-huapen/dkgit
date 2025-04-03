@@ -65,7 +65,7 @@
   <div class="box">
 <p>1号锅炉</p>
 <button class="button button1" onclick='location.href=("qishui.php")'>汽水</button>
-<button class="button button1">蓝色</button>
+<button class="button button1" onclick='location.href=("fengyan.php")'>风烟</button>
 <br>
 <button class="button button1">红色</button>
 <button class="button button1">灰色</button>

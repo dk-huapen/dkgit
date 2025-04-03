@@ -1,4 +1,8 @@
-- [ ] dkcode下header文件核查，应该时没用
-- [ ] sidebar文件夹下notice功能重写，更新为ajax模式
-- [ ] class文件夹下删除不需要的文件，写class帮助文件
-- [ ] sis系统新增一个页面，将js提取合并
+- [ ] 数据库连接和断开使用的比较乱，整理下，可以考虑使用面对对象连接
+- [ ] dkcode下header文件夹为空，应该把其他文件夹下header中公用部分统一到该head文件夹下
+- [ ] sidebar文件夹下notice功能增加定时刷新功能
+- [ ] 写class帮助文件
+- [ ] sis系统初始化test对象也包含到comm文件中
+- [ ] vim-plug安装
+- [ ] imagic安装
+

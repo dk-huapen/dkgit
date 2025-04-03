@@ -1,8 +1,18 @@
 					<fieldset>
 <?php
+	$conn = mysqli_connect("localhost","root","dk1314lich,forever!","db_rekong");
+	if(!$conn){
+		die("连接失败". mysqli_connect_error());
+	}else
+	{ 
+		//echo"连接成功";
+	}
+	mysqli_query($conn, "set names utf8");
 								$sql = "select * from tb_text where text_id=1";
 								$result = mysqli_query($conn, $sql);
 								$text_arr=mysqli_fetch_assoc($result);
+								mysqli_close($conn);
+								echo $text_arr['text4'];
 ?>
 						<legend style="border:1px">最新通知</legend>
 						<textarea id="news_id" rows="5" style="width:100%" name="news" ><?php echo $text_arr['text4'] ?></textarea>

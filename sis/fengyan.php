@@ -4,7 +4,7 @@
 </head>
 <body>
 					<?php include("top.php")?>
-<center><h1>汽水系统</h1></center>
+<center><h1>风烟系统</h1></center>
 			<script>
 var test =<?php
 include('conn.php');
@@ -15,6 +15,8 @@ $result = mysqli_query($con,$sql);
 $str = "{";
 while($row = mysqli_fetch_assoc($result)){
 $str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',updatetime:'".$row['updatetime']."',unit:'".$row['unit']."',value:".$row['value'].",flag:".$row['flag']."},";
+//$str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',value:".$row['value'].",flag:".$row['flag']."},";
+//$str = $str. "_".$row['kks'].":{HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',value:".$row['value'].",flag:".$row['flag']."},";
 }
 $strre = chop($str,",");
 $strre = $strre."}";
@@ -62,8 +64,12 @@ mysqli_close($con);
 <line x1="480" y1="500" x2="480" y2="600" stroke="purple" stroke-width="2"/>
 <polygon name="value1" id="7777" points="170,300 190,300 170,340 190,340" fill="green" stroke="black" stroke-width="2"/>
 	</svg>
+
 					<?php include("footer.php")?>
 					<?php include("comm.php")?>
+
+
+
 
 </body>
 </html>
