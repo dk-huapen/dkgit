@@ -30,7 +30,7 @@
 - notice.php  用户信息发布栏
 ## header  头文件
 - 目前为空文件
-## lib  项目所需库文件
+## lib  [项目所需库文件](lib/README.md)
 - class  类定义文件
 - footer  网站页角模块
 - fpdf  php生成PDF文件的库文件和脚本
