@@ -11,7 +11,7 @@
 ## info.php  平台测试PHP输出PHP各加载模块页面
 ## phpmyadmin  MariaDB数据库可视化管理工具phpmyadmin
 ## .gitignore  git分布式版本控制系统忽略跟踪指定文件的配置文件
-## sis  [SIS系统文件目录](sis/README.md)
+## sis  [SIS系统文件目录](sis/HELP.md)
 - conn.php  SIS系统数据库连接文件
 - top.php  重要参数展示栏
 - footer.php  底部导航栏
@@ -23,14 +23,14 @@
 - mystyle.css  SIS系统CSS样式定义
 - qishui.php  汽水系统页面
 - fengyan.php  风烟系统页面
-## sidebar  侧边栏模块
+## sidebar  [侧边栏模块](sidebar/HELP.md)
 - ShowQRCode.php  生成并显示当前页面二维码
 - quick_index.php  快速搜索栏，不论在任何页面可以直接搜索对应记录
 - news.php  开发者关于项目相关消息发布栏
 - notice.php  用户信息发布栏
 ## header  头文件
 - 目前为空文件
-## lib  [项目所需库文件](lib/README.md)
+## lib  [项目所需库文件](lib/HELP.md)
 - class  类定义文件
 - footer  网站页角模块
 - fpdf  php生成PDF文件的库文件和脚本
