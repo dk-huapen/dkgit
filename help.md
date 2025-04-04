@@ -13,12 +13,16 @@
 ## .gitignore  git分布式版本控制系统忽略跟踪指定文件的配置文件
 ## sis  SIS系统文件目录
 - conn.php  SIS系统数据库连接文件
+- top.php  重要参数展示栏
+- footer.php  底部导航栏
+- comm.php  公用元素库
 - historySql.php SIS系统各设备操作面板二维码生成
 - updateValueSql.php  SIS系统动态更新测点值的文件
 - mian.php  SIS系统首页
 - myScript.js  SIS系统JS函数定义
 - mystyle.css  SIS系统CSS样式定义
-- qishui.php  汽水系统文件
+- qishui.php  汽水系统页面
+- fengyan.php  风烟系统页面
 ## sidebar  侧边栏模块
 - ShowQRCode.php  生成并显示当前页面二维码
 - quick_index.php  快速搜索栏，不论在任何页面可以直接搜索对应记录
