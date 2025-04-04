@@ -44,7 +44,7 @@
 						}
 						if(test["_"+myObj[i].kks].flag==2){//判断是否为开关量，开关量是变色，模拟量是显示
 							if(myObj[i].value==0){
-      								document.getElementById(myObj[i].kks).style.fill="gray";
+      								document.getElementById(myObj[i].kks).style.fill="purple";
 							}
 							if(myObj[i].value==1){
       								document.getElementById(myObj[i].kks).style.fill="green";
@@ -244,7 +244,11 @@ last = function(){
 				plot();
 			}
     		function showHistory(kks) {
-        		document.getElementById('sishistory').style.display = 'block'; // 点击菜单项后隐藏菜单
+        		//document.getElementById('sishistory').style.display = 'block'; 
+        		var historydiv = document.getElementById('sishistory'); 
+        		historydiv.style.display = 'block';
+            		historydiv.style.left = `${event.pageX}px`;
+            		historydiv.style.top = `${event.pageY}px`;
 			var begin_time = '2025-03-17 21:01:01';
 			var end_time = '2025-03-17 21:02:05';
 			var historykks=kks;
