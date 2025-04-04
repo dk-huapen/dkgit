@@ -5,4 +5,5 @@
 - [ ] sis系统初始化test对象也包含到comm文件中
 - [ ] vim-plug安装
 - [ ] imagic安装
+- [ ] 新建一个文件夹将python OPC代码存入保证项目的完整性
 
