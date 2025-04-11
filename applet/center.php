@@ -78,7 +78,7 @@ function check(){
 	var b24 = (B2+C4-C2-B4)/2;
 	var b13 = (B1+C3-C1-B3)/2;
 
-	alert(b24);
+	//alert(b24);
 	if(a13>=0){
   		document.getElementById("A13").innerHTML = "上外圈:"+Math.abs(a13).toFixed(3);
 	}else{
@@ -119,15 +119,11 @@ function check(){
 	</head>
 	<body >
 		<div class="header">
-			<h1>热控班组管理平台</h1>
-		</div>
-		<div class="topnav">
-			<?php include("../lib/topnav/topnav.php") ?>
+	<h1>三表对中工具</h1>
 		</div>
 		<div class="row">
 			<div class="leftcolumn">
 				<div class="card">
-	<center><h2>三表对中工具</h2></center>
 
 <div class="flex-container">
   <div class="box">
@@ -234,32 +230,7 @@ function check(){
 				<div class="card">
 					<?php include("../sidebar/ShowQRCode.php") ?>
 				</div>
-				<div class="card">
-					<ul class="right">
-						<li><a href="quick_select_defect.php?id=10">当天缺陷</a></li>
-						<li><a href="quick_select_defect.php?id=20">昨天缺陷</a></li>
-						<li><a href="quick_select_defect.php?id=30">本周缺陷</a></li>
-						<li><a href="quick_select_defect.php?id=40">上周缺陷</a></li>
-						<li><a href="quick_select_defect.php?id=50">本月缺陷</a></li>
-						<li><a href="quick_select_defect.php?id=60">上月缺陷</a></li>
-						<li><a href="add_defect.php">新增缺陷</a></li>
-					</ul>
-				<div class="card">
-					<?php include("../sidebar/quick_index.php") ?>
-				</div>
-				</div>
-				<div class="card">
-				<!--最新通知-->
-					<?php include("../sidebar/notice.php")?>
-				</div>
-				<div class="card">
-				<!--最新资讯-->
-					<?php include("../sidebar/news.php")?>
-				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<?php include("../lib/footer/footer.php")?>
 		</div>
 	</body>
 </html>
