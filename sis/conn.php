@@ -1,5 +1,5 @@
 <?php
-	$con = mysqli_connect('localhost','root','dk1314lich,forever!','sisbuff');
+	$con = mysqli_connect('localhost','root','dk1314lich,forever!','opcuasis');
 	if(!$con){
 		die("连接失败". mysqli_connect_error());
 	}else
