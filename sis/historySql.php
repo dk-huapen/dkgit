@@ -2,8 +2,15 @@
 	$begin_time=$_GET['begin_time'];
 	$end_time=$_GET['end_time'];
 	$kks=$_GET['kks'];
-	include('conn.php');
-	$sql="SELECT Htime,value FROM ".$kks." where htime between '".$begin_time."' and '".$end_time."'";
+	$con = mysqli_connect('localhost','root','dk1314lich,forever!','abbhistory');
+	if(!$con){
+		die("连接失败". mysqli_connect_error());
+	}else
+	{ 
+		//echo"连接成功";
+	}
+	mysqli_query($con, "set names utf8");
+	$sql="SELECT time,value FROM ".$kks." where time between '".$begin_time."' and '".$end_time."'";
 
 	$result = mysqli_query($con,$sql);
 
