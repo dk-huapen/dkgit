@@ -30,14 +30,14 @@ mysqli_close($con);
 <path d="M 160 200 A 50 50 0 0 1 160 100 L500 100 A50 50 0 0 1 500 200z" stroke="black" stroke="#000" fill="white" />
 
 		<text id = "10HBK10CP101" name="6572" x="100" y="350" fill="black" font-size="20" font-family="Arial"onclick=click(this.id,6572) onmouseover=mOver(this.id,"4号炉膛出口烟气压力") onmouseout=mOut() onmouseup=mUp(6572,this.id)>bad!</text>
-<text id = "10HAD10CT201" x="160" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,979) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(979,this.id)>bad!</text>
+<text id = "10HAD10CT201" x="160" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,979) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(979,this.id)>!bad</text>
 <rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
 
-<text x="260" y="190" fill="black" font-size="18" font-family="Arial">9.2MPa</text>
+<text id = "10HAD10CP101" x="260" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1044) onmouseover=mOver(this.id,"1号炉汽包压力1") onmouseout=mOut() onmouseup=mUp(1044,this.id)>!bad</text>
 <text id = "10HAD10CT202" x="360" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,980) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>
 <text x="460" y="190" fill="black" font-size="18" font-family="Arial">512℃</text>
 <text x="160" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
-<text x="260" y="120" fill="black" font-size="18" font-family="Arial">9.2MPa</text>
+<text id = "10HAD10CP102" x="260" y="120" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1052) onmouseover=mOver(this.id,"1号炉汽包压力2") onmouseout=mOut() onmouseup=mUp(1052,this.id)>9.2MPa</text>
 <text x="360" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
 <text x="460" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
 <text x="190" y="220" fill="black" font-size="18" font-family="Arial">-26.2mm</text>
