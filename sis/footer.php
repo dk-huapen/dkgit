@@ -9,5 +9,5 @@
   <button class="button">制粉</button>
   <button class="button">制粉</button>
   <button class="button">制粉</button>
-  <button class="button">Button</button>
+  <button class="button" onclick='location.href=("main.php")'>主画面</button>
 </div>
