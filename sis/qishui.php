@@ -1,46 +1,53 @@
 <html>
-<head>
-					<?php include("header.php")?>
-</head>
-<body>
-					<?php include("top.php")?>
-<center><h1>汽水系统</h1></center>
-			<script>
-var test =<?php
-include('conn.php');
+	<head>
+		<?php include("header.php")?>
+	</head>
+	<body>
+		<?php include("top.php")?>
+		<center><h1>汽水系统</h1></center>
+		<script>
+			var test =<?php
+			include('conn.php');
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag FROM sis where page=1 or page1=1";
+			$result = mysqli_query($con,$sql);
 
-$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag FROM sis where page=1 or page1=1";
-$result = mysqli_query($con,$sql);
+			$str = "{";
+				while($row = mysqli_fetch_assoc($result)){
+					$str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',updatetime:'".$row['updatetime']."',unit:'".$row['unit']."',value:".$row['value'].",flag:".$row['flag']."},";
+				}
+				$strre = chop($str,",");
+			$strre = $strre."}";
 
-$str = "{";
-while($row = mysqli_fetch_assoc($result)){
-$str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',updatetime:'".$row['updatetime']."',unit:'".$row['unit']."',value:".$row['value'].",flag:".$row['flag']."},";
-}
-$strre = chop($str,",");
-$strre = $strre."}";
+			echo $strre;
 
-echo $strre;
-
-mysqli_close($con);
+			mysqli_close($con);
 	
-?>;
-			</script>
+			?>;
+		</script>
 	<!--SIS画面-->
-	<svg width="800" height="800" viewBox="0 0 800 800" fill="gray">
-<path d="M 160 200 A 50 50 0 0 1 160 100 L500 100 A50 50 0 0 1 500 200z" stroke="black" stroke="#000" fill="white" />
-<?php
-$locateX = 0;
-$locateY = 0;
-?>
+		<svg width="800" height="800" viewBox="0 0 800 800" fill="gray">
+			<?php
+				$locateX = 0;
+				$locateY = 0;
+				$pointArray = array("10HAD10CT202"=>array(980,"1号炉汽包壁温2"),"10HAD10CT203"=>array(980,"1号炉汽包壁温3"))
+			?>
+			<path d="M 160 200 A 50 50 0 0 1 160 100 L500 100 A50 50 0 0 1 500 200z" stroke="black" stroke="#000" fill="white" />
 
-		<text id = "10HBK10CP101" name="6572" x="100" y="350" fill="black" font-size="20" font-family="Arial"onclick=click(this.id,6572) onmouseover=mOver(this.id,"4号炉膛出口烟气压力") onmouseout=mOut() onmouseup=mUp(6572,this.id)>bad!</text>
-		<text id = "10HAD10CT201" x=<?php echo $locateX+160 ?> y=<?php echo $locateY+190 ?> fill="black" font-size="18" font-family="Arial" onclick=click(this.id,979) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(979,this.id)>!bad</text>
-<rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
+			<text id = "10HBK10CP101" name="6572" x="100" y="350" fill="black" font-size="20" font-family="Arial"onclick=click(this.id,6572) onmouseover=mOver(this.id,"4号炉膛出口烟气压力") onmouseout=mOut() onmouseup=mUp(6572,this.id)>bad!</text>
+			<text id = "10HAD10CT201" x=<?php echo $locateX+160 ?> y=<?php echo $locateY+190 ?> fill="black" font-size="18" font-family="Arial" onclick=click(this.id,979) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(979,this.id)>!bad</text>
+			<rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
 
-<text id = "10HAD10CP101" x="260" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1044) onmouseover=mOver(this.id,"1号炉汽包压力1") onmouseout=mOut() onmouseup=mUp(1044,this.id)>!bad</text>
-<text id = "10HAD10CT202" x="360" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,980) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>
-<text x="460" y="190" fill="black" font-size="18" font-family="Arial">512℃</text>
-<text x="160" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
+			<text id = "10HAD10CP101" x="260" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1044) onmouseover=mOver(this.id,"1号炉汽包压力1") onmouseout=mOut() onmouseup=mUp(1044,this.id)>!bad</text>
+	<?php 
+				function dkAI($x,$y,$kks,$name,$count){
+				//echo "<text id = '10HAD10CT202' x=".($locateX+360)." y=".($locateY+190)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'1号炉汽包壁温2') onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>";
+				//echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'1号炉汽包壁温2') onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>";
+				echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$count.",this.id)>512℃</text>";
+				}
+				dkAI(360,190,"10HAD10CT202",'1号炉汽包壁温2',980);
+				dkAI(460,190,"10HAD10CT203",'1号炉汽包壁温3',981);
+				dkAI(160,120,"10HAD10CT204",'1号炉汽包壁温4',981);
+	?>
 <text id = "10HAD10CP102" x="260" y="120" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1052) onmouseover=mOver(this.id,"1号炉汽包压力2") onmouseout=mOut() onmouseup=mUp(1052,this.id)>9.2MPa</text>
 <text x="360" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
 <text x="460" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
@@ -65,9 +72,10 @@ $locateY = 0;
 <polygon name="value1" id="7777" points="370,300 390,300 370,340 390,340" fill="green" stroke="black" stroke-width="2"/>
 <line x1="380" y1="340" x2="380" y2="360" stroke="purple" stroke-width="2"/>
 
-<line x1="180" y1="200" x2="180" y2="500" stroke="purple" stroke-width="2"/>
-<line x1="180" y1="500" x2="480" y2="500" stroke="purple" stroke-width="2"/>
-<line x1="480" y1="500" x2="480" y2="600" stroke="purple" stroke-width="2"/>
+<line x1="180" y1="200" x2="180" y2="400" stroke="green" stroke-width="2"/>
+<line x1="180" y1="400" x2="480" y2="400" stroke="green" stroke-width="2"/>
+<line x1="480" y1="400" x2="480" y2="500" stroke="green" stroke-width="2"/>
+<line x1="480" y1="500" x2="80" y2="500" stroke="green" stroke-width="2"/>
 <polygon name="value1" id="7777" points="170,300 190,300 170,340 190,340" fill="green" stroke="black" stroke-width="2"/>
 	</svg>
 					<?php include("footer.php")?>
