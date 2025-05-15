@@ -8,12 +8,15 @@
 		<script>
 			var test =<?php
 			include('conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag FROM sis where page=1 or page1=1";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=1 or page1=1";
 			$result = mysqli_query($con,$sql);
+			$pointArray = array();
 
 			$str = "{";
 				while($row = mysqli_fetch_assoc($result)){
 					$str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',updatetime:'".$row['updatetime']."',unit:'".$row['unit']."',value:".$row['value'].",flag:".$row['flag']."},";
+					$pointArray[$row['kks']] = array($row['indexID'],$row['name'],$row['X'],$row['Y']);
+
 				}
 				$strre = chop($str,",");
 			$strre = $strre."}";
@@ -29,32 +32,36 @@
 			<?php
 				$locateX = 0;
 				$locateY = 0;
-				$pointArray = array("10HAD10CT202"=>array(980,"1号炉汽包壁温2"),"10HAD10CT203"=>array(980,"1号炉汽包壁温3"))
+				function dkAI($kks){
+					global $pointArray;
+					global $locateX;
+					global $locateY;
+				$index = $pointArray[$kks][0];
+				$name = $pointArray[$kks][1];
+				$x = $pointArray[$kks][2];
+				$y = $pointArray[$kks][3];
+				echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)>512℃</text>";
+				}
 			?>
 			<path d="M 160 200 A 50 50 0 0 1 160 100 L500 100 A50 50 0 0 1 500 200z" stroke="black" stroke="#000" fill="white" />
 
-			<text id = "10HBK10CP101" name="6572" x="100" y="350" fill="black" font-size="20" font-family="Arial"onclick=click(this.id,6572) onmouseover=mOver(this.id,"4号炉膛出口烟气压力") onmouseout=mOut() onmouseup=mUp(6572,this.id)>bad!</text>
-			<text id = "10HAD10CT201" x=<?php echo $locateX+160 ?> y=<?php echo $locateY+190 ?> fill="black" font-size="18" font-family="Arial" onclick=click(this.id,979) onmouseover=mOver(this.id,"1号炉汽包壁温1") onmouseout=mOut() onmouseup=mUp(979,this.id)>!bad</text>
-			<rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
 
-			<text id = "10HAD10CP101" x="260" y="190" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1044) onmouseover=mOver(this.id,"1号炉汽包压力1") onmouseout=mOut() onmouseup=mUp(1044,this.id)>!bad</text>
 	<?php 
-				function dkAI($x,$y,$kks,$name,$count){
-				//echo "<text id = '10HAD10CT202' x=".($locateX+360)." y=".($locateY+190)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'1号炉汽包壁温2') onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>";
-				//echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'1号炉汽包壁温2') onmouseout=mOut() onmouseup=mUp(980,this.id)>512℃</text>";
-				echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,980) onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$count.",this.id)>512℃</text>";
-				}
-				dkAI(360,190,"10HAD10CT202",'1号炉汽包壁温2',980);
-				dkAI(460,190,"10HAD10CT203",'1号炉汽包壁温3',981);
-				dkAI(160,120,"10HAD10CT204",'1号炉汽包壁温4',981);
+				dkAI("10HAD10CT201");
+				dkAI("10HAD10CP101");
+				dkAI("10HAD10CP102");
+				dkAI("10HAD10CT202");
+				dkAI("10HAD10CT203");
+				dkAI("10HAD10CT204");
+				dkAI("10HAD10CT205");
+				dkAI("10HAD10CT206");
+				dkAI("10HAD10CL101_L");
+				dkAI("10HAD10CL102_L");
+				dkAI("10HAD10CL103_L");
+				dkAI("10HAD10AA101GT");
 	?>
-<text id = "10HAD10CP102" x="260" y="120" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1052) onmouseover=mOver(this.id,"1号炉汽包压力2") onmouseout=mOut() onmouseup=mUp(1052,this.id)>9.2MPa</text>
-<text x="360" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
-<text x="460" y="120" fill="black" font-size="18" font-family="Arial">512℃</text>
-<text x="190" y="220" fill="black" font-size="18" font-family="Arial">-26.2mm</text>
-<text x="300" y="220" fill="black" font-size="18" font-family="Arial">-27.2mm</text>
-<text x="400" y="220" fill="black" font-size="18" font-family="Arial">-28.2mm</text>
 
+			<rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
 <!--右侧连排----->
 <line x1="480" y1="200" x2="480" y2="300" stroke="purple" stroke-width="2"/>
 <polygon name="value1" id="7777" points="470,230 490,230 470,270 490,270" fill="green" stroke="black" stroke-width="2"/>
@@ -64,7 +71,6 @@
 <line x1="280" y1="200" x2="280" y2="300" stroke="purple" stroke-width="2"/>
 <polygon id="10HAD10AA001" points="270,230 290,230 270,270 290,270" fill="white" stroke="black" stroke-width="2" onclick=click(this.id,1871) onmouseover=mOver(this.id,"1号炉左侧连续排污电动阀") onmouseout=mOut() onmouseup=mUp(1871,this.id)></polygon>
 <polygon id="10HAD10AA101" points="270,300 290,300 270,340 290,340" fill="white" stroke="black" stroke-width="2" onclick=click(this.id,1010) onmouseover=mOver(this.id,"1号炉左侧连续排污调节阀") onmouseout=mOut() onmouseup=mUp(1010,this.id)></polygon>
-<text id = "10HAD10AA101GT" x="290" y="325" fill="black" font-size="18" font-family="Arial" onclick=click(this.id,1010) onmouseover=mOver(this.id,"1号炉左侧连续排污调节阀开度") onmouseout=mOut() onmouseup=mUp(1010,this.id)>bad!</text>
 <line x1="280" y1="340" x2="280" y2="360" stroke="purple" stroke-width="2"/>
 <!--紧急放水----->
 <line x1="380" y1="200" x2="380" y2="300" stroke="purple" stroke-width="2"/>
