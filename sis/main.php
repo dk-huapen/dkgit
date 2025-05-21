@@ -111,7 +111,7 @@
 </div>
   <div class="box1">
 <p>脱硫</p>
-<button class="button button1">蓝色</button>
+<button class="button button1" onclick='location.href=("CEMS.php")'>环保</button>
 <br>
 <button class="button button1">红色</button>
 <br>

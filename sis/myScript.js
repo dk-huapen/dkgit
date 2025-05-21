@@ -28,6 +28,7 @@
       										document.getElementById(myObj[i].kks).style.fill="yellow";
 									}else{
       										document.getElementById(myObj[i].kks).style.fill="black";
+										//alert("black");
 									}
 
 								}

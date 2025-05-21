@@ -52,6 +52,6 @@
         drag("draglookup","lookup");
         	//drag("sishistory");//拖动查看窗口
         	drag("draghistory","sishistory");//拖动查看窗口
-		updateValue(1);
-		setInterval(updateValue,1000,1);
+		updateValue(page);
+		setInterval(updateValue,1000,page);
 	</script>

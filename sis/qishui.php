@@ -6,6 +6,7 @@
 		<?php include("top.php")?>
 		<center><h1>汽水系统</h1></center>
 		<script>
+			var page = 1;
 			var test =<?php
 			include('conn.php');
 			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=1 or page1=1";
@@ -15,7 +16,7 @@
 			$str = "{";
 				while($row = mysqli_fetch_assoc($result)){
 					$str = $str. "_".$row['kks'].":{name:'".$row['name']."',HH:'".$row['HH']."',H:'".$row['H']."',HHH:'".$row['HHH']."',L:'".$row['L']."',LL:'".$row['LL']."',LLL:'".$row['LLL']."',updatetime:'".$row['updatetime']."',unit:'".$row['unit']."',value:".$row['value'].",flag:".$row['flag']."},";
-					$pointArray[$row['kks']] = array($row['indexID'],$row['name'],$row['X'],$row['Y']);
+					$pointArray[$row['kks']] = array($row['indexID'],$row['name'],$row['X'],$row['Y'],$row['flag']);
 
 				}
 				$strre = chop($str,",");
@@ -28,7 +29,7 @@
 			?>;
 		</script>
 	<!--SIS画面-->
-		<svg width="800" height="800" viewBox="0 0 800 800" fill="gray">
+		<svg width="1400" height="1400" viewBox="0 0 1400 1400" fill="gray">
 			<?php
 				$locateX = 0;
 				$locateY = 0;
@@ -47,6 +48,12 @@
 
 
 	<?php 
+				foreach($pointArray as $kks=>$d){
+					if($d[4]==0){
+					dkAI($kks);
+					}
+				}
+				/*
 				dkAI("10HAD10CT201");
 				dkAI("10HAD10CP101");
 				dkAI("10HAD10CP102");
@@ -59,9 +66,10 @@
 				dkAI("10HAD10CL102_L");
 				dkAI("10HAD10CL103_L");
 				dkAI("10HAD10AA101GT");
+				 */
 	?>
 
-			<rect id = "10HAD10CL005"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
+			<rect id = "10HAD10CL005L"x="140" y="210" width="20" height="20" rx="5" ry="5" fill="gray" onclick=click(this.id,1623) onmouseover=mOver(this.id,"1号炉左侧零水位电接点水位低") onmouseout=mOut() onmouseup=mUp(1623,this.id)></rect>
 <!--右侧连排----->
 <line x1="480" y1="200" x2="480" y2="300" stroke="purple" stroke-width="2"/>
 <polygon name="value1" id="7777" points="470,230 490,230 470,270 490,270" fill="green" stroke="black" stroke-width="2"/>
