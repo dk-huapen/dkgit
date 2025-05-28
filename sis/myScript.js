@@ -16,15 +16,16 @@
 							test["_"+myObj[i].kks].value = myObj[i].value;
 							test["_"+myObj[i].kks].updatetime = myObj[i].updatetime;
 						if(test["_"+myObj[i].kks].flag==0){//判断是否为开关量，开关量是变色，模拟量是显示
-							//if(parseFloat(myObj[i].value) >parseFloat(test["_"+myObj[i].kks].HH)){
-							if(myObj[i].value >test["_"+myObj[i].kks].HHH || myObj[i].value <test["_"+myObj[i].kks].LLL){//颜色报警
+							if(parseFloat(myObj[i].value) > parseFloat(test["_"+myObj[i].kks].HHH) || parseFloat(myObj[i].value) < parseFloat(test["_"+myObj[i].kks].LLL)){//颜色报警,此处类型为string，需转化成float进行比较，否则乱。。
       								document.getElementById(myObj[i].kks).style.fill="red";
-							//alert(test["_"+myObj[i].kks].HH);
+							//alert(typeof(myObj[i].value));
+							//alert(test["_"+myObj[i].kks].HHH);
+							//alert(test["_"+myObj[i].kks].LLL);
 							}else{
-								if(myObj[i].value >test["_"+myObj[i].kks].HH || myObj[i].value <test["_"+myObj[i].kks].LL){//颜色报警
+								if(parseFloat(myObj[i].value) >parseFloat(test["_"+myObj[i].kks].HH) || parseFloat(myObj[i].value) <parseFloat(test["_"+myObj[i].kks].LL)){//颜色报警
       									document.getElementById(myObj[i].kks).style.fill="green";
 								}else{
-									if(myObj[i].value >test["_"+myObj[i].kks].H || myObj[i].value <test["_"+myObj[i].kks].L){//颜色报警
+									if(parseFloat(myObj[i].value) >parseFloat(test["_"+myObj[i].kks].H) || parseFloat(myObj[i].value) <parseFloat(test["_"+myObj[i].kks].L)){//颜色报警
       										document.getElementById(myObj[i].kks).style.fill="yellow";
 									}else{
       										document.getElementById(myObj[i].kks).style.fill="black";

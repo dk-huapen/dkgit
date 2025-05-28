@@ -1,4 +1,3 @@
-    <title>SIS系统</title>
 <meta http-equiv="content-type" content="text/html; charset=GBK">
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 <script type="text/javascript"src="../lib/dygraph.js"></script>
