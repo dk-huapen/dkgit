@@ -61,12 +61,37 @@
 <rect x="680" y="50" width="100" height="500" fill="gray" stroke="balck" stroke-width="2"></rect>
 <line x1="680" y1="100" x2="780" y2="500" stroke="red" stroke-width="2"/>
 <line x1="680" y1="500" x2="780" y2="100" stroke="red" stroke-width="2"/>
-<rect x="710" y="200" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
-<text x="720" y="230" fill="black" font-size="20" font-family="Arial">低</text>
-<text x="720" y="260" fill="black" font-size="20" font-family="Arial">温</text>
-<text x="720" y="290" fill="black" font-size="20" font-family="Arial">过</text>
-<text x="720" y="320" fill="black" font-size="20" font-family="Arial">热</text>
-<text x="720" y="350" fill="black" font-size="20" font-family="Arial">器</text>
+<rect x="710" y="210" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
+<text x="720" y="245" fill="black" font-size="20" font-family="Arial">低</text>
+<text x="720" y="275" fill="black" font-size="20" font-family="Arial">温</text>
+<text x="720" y="305" fill="black" font-size="20" font-family="Arial">过</text>
+<text x="720" y="335" fill="black" font-size="20" font-family="Arial">热</text>
+<text x="720" y="365" fill="black" font-size="20" font-family="Arial">器</text>
+<!--屏式过热器----->
+<rect x="1025" y="50" width="50" height="500" fill="gray" stroke="balck" stroke-width="2"></rect>
+<rect x="1030" y="210" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
+<text x="1040" y="245" fill="black" font-size="20" font-family="Arial">屏</text>
+<text x="1040" y="275" fill="black" font-size="20" font-family="Arial">式</text>
+<text x="1040" y="305" fill="black" font-size="20" font-family="Arial">过</text>
+<text x="1040" y="335" fill="black" font-size="20" font-family="Arial">热</text>
+<text x="1040" y="365" fill="black" font-size="20" font-family="Arial">器</text>
+<!--高温过热器----->
+<rect x="1100" y="50" width="250" height="500" fill="gray" stroke="balck" stroke-width="2"></rect>
+<rect x="1105" y="210" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
+<text x="1115" y="245" fill="black" font-size="20" font-family="Arial">高</text>
+<text x="1115" y="275" fill="black" font-size="20" font-family="Arial">温</text>
+<text x="1115" y="305" fill="black" font-size="20" font-family="Arial">过</text>
+<text x="1115" y="335" fill="black" font-size="20" font-family="Arial">热</text>
+<text x="1115" y="365" fill="black" font-size="20" font-family="Arial">器</text>
+<!--锅炉集汽集箱----->
+<rect x="1380" y="50" width="40" height="500" fill="gray" stroke="balck" stroke-width="2"></rect>
+<rect x="1385" y="210" width="30" height="190" fill="gray" stroke="white" stroke-width="2"></rect>
+<text x="1390" y="235" fill="black" font-size="20" font-family="Arial">锅</text>
+<text x="1390" y="265" fill="black" font-size="20" font-family="Arial">炉</text>
+<text x="1390" y="295" fill="black" font-size="20" font-family="Arial">集</text>
+<text x="1390" y="325" fill="black" font-size="20" font-family="Arial">汽</text>
+<text x="1390" y="355" fill="black" font-size="20" font-family="Arial">集</text>
+<text x="1390" y="385" fill="black" font-size="20" font-family="Arial">箱</text>
 
 
 
