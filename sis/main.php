@@ -67,7 +67,7 @@
 <button class="button button1" onclick='location.href=("qishui.php")'>汽水</button>
 <button class="button button1" onclick='location.href=("fengyan.php")'>风烟</button>
 <br>
-<button class="button button1">红色</button>
+<button class="button button1" onclick='location.href=("zhifen.php")'>制粉</button>
 <button class="button button1">灰色</button>
 <br>
 <button class="button button1">黑色</button>
