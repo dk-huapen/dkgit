@@ -26,7 +26,7 @@
   	</div>
   	<div class="containerkks">
 	    <span id="lookup_value">值</span>
-	    <span>更新时间:</span>
+	    <span>时间:</span>
 	    <span id="lookup_time">值</span>
   	</div>
   	<div class="header">

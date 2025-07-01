@@ -17,7 +17,15 @@
 				$name = $pointArray[$kks][1];
 				$x = $pointArray[$kks][2];
 				$y = $pointArray[$kks][3];
-				echo "<rect id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)." width='20' height='20' rx='5' ry='5' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></rect>";
+				$toward = $pointArray[$kks][5];
+				$angle = $pointArray[$kks][6];
+				if($toward == 0){
+					echo "<rect id = ".$kks." x=".($locateX+$x-10)." y=".($locateY+$y-10)." width='20' height='20' rx='5' ry='5' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></rect>";
+				}
+				if($toward == 10){
+					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='20' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
+					echo "<text x=".($locateX+$x-12)." y=".($locateY+$y+9)." fill='black' font-size='30' font-family='Arial'>M</text>";
+				}
 				}
 				function dkValue($kks){
 					global $pointArray;
@@ -28,8 +36,9 @@
 				$x = $pointArray[$kks][2];
 				$y = $pointArray[$kks][3];
 				$toward = $pointArray[$kks][5];
+				$angle = $pointArray[$kks][6];
 				if($toward == 0){
-					echo "<g transform='rotate(-90 ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
 					echo "<circle cx=".($locateX+$x)." cy=".($locateY+$y-19)." r='9' fill='white' stroke='black' stroke-width='1'></circle>";
 
 					echo "<text x=".($locateX+$x-6)." y=".($locateY+$y-14)." fill='black' font-size='15' font-family='Arial'>M</text>";
@@ -38,19 +47,36 @@
 					echo "</g>";
 				}
 				if($toward == 1){
-					echo "<g>";
-					echo "<circle cx=".($locateX+$x)." cy=".($locateY+$y-19)." r='9' fill='white' stroke='black' stroke-width='1'></circle>";
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<rect x=".($locateX+$x-7)." y=".($locateY+$y-24)." width='14' height='14' fill='white' stroke='black' stroke-width='1'></rect>";
 
-					echo "<text x=".($locateX+$x-6)." y=".($locateY+$y-14)." fill='black' font-size='15' font-family='Arial'>M</text>";
+					//echo "<text x=".($locateX+$x-6)." y=".($locateY+$y-14)." fill='black' font-size='15' font-family='Arial'>M</text>";
 					echo "<line x1=".($locateX+$x)." y1=".($locateY+$y-10)." x2=".($locateX+$x)." y2=".($locateY+$y)." stroke='black' stroke-width='2'/>";
 				echo "<polygon id = ".$kks." points='".($locateX+$x-20).",".($locateY+$y-10).",".($locateX+$x-20).",".($locateY+$y+10).",".($locateX+$x+20).",".($locateY+$y-10).",".($locateX+$x+20).",".($locateY+$y+10)."' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></polygon>";
 					echo "</g>";
 				}
+				if($toward == 2){
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
+					//echo "<rect x=".($locateX+$x-7)." y=".($locateY+$y-24)." width='14' height='14' fill='white' stroke='black' stroke-width='1'></rect>";
+					echo "<path d='M ".($locateX+$x-9)." ".($locateY+$y-19)." A 9 9 0 1 1 ".($locateX+$x+9)." ".($locateY+$y-19)."z' fill='white' stroke='black' stroke-width='1'></path>";
+
+					//echo "<text x=".($locateX+$x-6)." y=".($locateY+$y-14)." fill='black' font-size='15' font-family='Arial'>M</text>";
+					echo "<line x1=".($locateX+$x)." y1=".($locateY+$y-19)." x2=".($locateX+$x)." y2=".($locateY+$y)." stroke='black' stroke-width='2'/>";
+				echo "<polygon id = ".$kks." points='".($locateX+$x-20).",".($locateY+$y-10).",".($locateX+$x-20).",".($locateY+$y+10).",".($locateX+$x+20).",".($locateY+$y-10).",".($locateX+$x+20).",".($locateY+$y+10)."' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></polygon>";
+					echo "</g>";
+				}
 				if($toward == 10){
-					echo "<g transform='rotate(-45 ".($locateX+$x).",".($locateY+$y).")'>";
+					//echo "<g transform='rotate(-45 ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
 				echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='30' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
 					echo "<line x1=".($locateX+$x-30)." y1=".($locateY+$y)." x2=".($locateX+$x+30)." y2=".($locateY+$y)." stroke='black' stroke-width='2'/>";
 					echo "<line x1=".($locateX+$x)." y1=".($locateY+$y-30)." x2=".($locateX+$x)." y2=".($locateY+$y+30)." stroke='black' stroke-width='2'/>";
+					echo "</g>";
+				}
+				if($toward == 20){
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='20' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
+					echo "<text x=".($locateX+$x-12)." y=".($locateY+$y+9)." fill='black' font-size='30' font-family='Arial'>M</text>";
 					echo "</g>";
 				}
 			}
