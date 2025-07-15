@@ -1,7 +1,7 @@
 <html>
 	<head>
     		<title>1号炉制粉系统</title>
-		<?php include("header.php")?>
+		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
@@ -9,7 +9,7 @@
 		<script>
 			var page = 3;
 			var test =<?php
-			include('conn.php');
+			include('../conn.php');
 			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=3 or page1=3";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
@@ -34,7 +34,6 @@
 			<?php
 				$locateX = 0;
 				$locateY = 0;
-				require 'fun.php';
 			?>
 
 
@@ -84,6 +83,7 @@
 <!--A磨油站----->
 <rect x="40" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
 <text x="60" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<text x="50" y="900" fill="black" font-size="20" font-family="Arial">1#</text>
 
 <!--B层燃烧器----->
 <rect x="510" y="20" width="400" height="80" fill="gray" stroke="balck" stroke-width="2"></rect>
@@ -238,7 +238,6 @@
 
 	</svg>
 					<?php include("footer.php")?>
-					<?php include("comm.php")?>
 
 </body>
 </html>

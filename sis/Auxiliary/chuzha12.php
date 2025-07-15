@@ -1,16 +1,16 @@
 <html>
 	<head>
-    		<title>1号炉汽水系统</title>
-		<?php include("header.php")?>
+    		<title>1号吸收塔</title>
+		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>汽水系统</h1></center>
+		<center><h1>12号除渣</h1></center>
 		<script>
-			var page = 1;
+			var page = 251;
 			var test =<?php
-			include('conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=1 or page1=1";
+			include('../conn.php');
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=251 or page1=251";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -34,7 +34,6 @@
 			<?php
 				$locateX = 0;
 				$locateY = 0;
-				require 'fun.php';
 			?>
 
 
@@ -50,21 +49,6 @@
 <line x1="150" y1="200" x2="150" y2="500" stroke="green" stroke-width="2"/>
 <line x1="150" y1="500" x2="600" y2="500" stroke="green" stroke-width="2"/>
 <!--省煤器----->
-<rect x="200" y="400" width="400" height="100" fill="gray" stroke="balck" stroke-width="2"></rect>
-<line x1="200" y1="400" x2="600" y2="500" stroke="green" stroke-width="2"/>
-<line x1="200" y1="500" x2="600" y2="400" stroke="green" stroke-width="2"/>
-<rect x="350" y="430" width="100" height="40" fill="gray" stroke="white" stroke-width="2"></rect>
-<text x="370" y="455" fill="black" font-size="20" font-family="Arial">省煤器</text>
-<!--低温过热器----->
-<rect x="730" y="50" width="100" height="500" fill="gray" stroke="balck" stroke-width="2"></rect>
-<line x1="730" y1="100" x2="830" y2="500" stroke="red" stroke-width="2"/>
-<line x1="730" y1="500" x2="830" y2="100" stroke="red" stroke-width="2"/>
-<rect x="760" y="210" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
-<text x="770" y="245" fill="black" font-size="20" font-family="Arial">低</text>
-<text x="770" y="275" fill="black" font-size="20" font-family="Arial">温</text>
-<text x="770" y="305" fill="black" font-size="20" font-family="Arial">过</text>
-<text x="770" y="335" fill="black" font-size="20" font-family="Arial">热</text>
-<text x="770" y="365" fill="black" font-size="20" font-family="Arial">器</text>
 <!--屏式过热器----->
 <rect x="1100" y="50" width="50" height="500" fill="gray" stroke="balck" stroke-width="2" ></rect>
 <rect x="1105" y="210" width="40" height="180" fill="gray" stroke="white" stroke-width="2"></rect>
@@ -149,7 +133,6 @@
 
 	</svg>
 					<?php include("footer.php")?>
-					<?php include("comm.php")?>
 
 </body>
 </html>

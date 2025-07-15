@@ -63,7 +63,8 @@
 			    		}
     				}
   			}
-  			xmlhttp.open("GET","updateValueSql.php?q="+page,true);
+  			//xmlhttp.open("GET","updateValueSql.php?q="+page,true);
+  			xmlhttp.open("GET","/dkcode/sis/updateValueRedis.php?q="+page,true);
   			xmlhttp.send();
 		}
 		function mUp(count_id,kks){//鼠标右键点击响应
@@ -155,7 +156,7 @@ str = "http://dklovelich.iok.la/dkcode/taizhang/equipment_account/look_content.p
 					document.getElementById('erweima').src='data:image/png;base64,'+this.responseText;
 			    		}
   			}
-  			xmlhttp.open("GET","../lib/QRPagerSis.php?id="+str,true);
+  			xmlhttp.open("GET","/dkcode/lib/QRPagerSis.php?id="+str,true);
   			xmlhttp.send();
 		}
 function plot(){
@@ -174,7 +175,7 @@ function plot(){
 	}else{
 		alert('wrong');
 	}	   
-	var url="historySql.php?kks="+kks+"&begin_time="+begin_time+"&end_time="+end_time+"&time="+new Date().getTime();
+	var url="/dkcode/sis/historySql.php?kks="+kks+"&begin_time="+begin_time+"&end_time="+end_time+"&time="+new Date().getTime();
 	xmlObj.onreadystatechange=function(){
 		if(this.readyState==4){
 //		alert(this.responseText);

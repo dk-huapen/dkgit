@@ -64,13 +64,13 @@
 <div class="flex-container">
   <div class="box">
 <p>1号锅炉</p>
-<button class="button button1" onclick='location.href=("qishui.php")'>汽水</button>
-<button class="button button1" onclick='location.href=("fengyan.php")'>风烟</button>
+<button class="button button1" onclick='location.href=("Boiler1/qishui.php")'>汽水</button>
+<button class="button button1" onclick='location.href=("Boiler1/fengyan.php")'>风烟</button>
 <br>
-<button class="button button1" onclick='location.href=("zhifen.php")'>制粉</button>
+<button class="button button1" onclick='location.href=("Boiler1/zhifen.php")'>制粉</button>
 <button class="button button1">灰色</button>
 <br>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("test.php")'>测试</button>
 <button class="button button1">黑色</button>
 <br>
 <button class="button button1">黑色</button>
@@ -102,16 +102,24 @@
 </div>
   <div class="box1">
 <p>辅系统</p>
+<button class="button button1" onclick='location.href=("Auxiliary/chuzha12.php")'>1-2除渣</button>
 </div>
   <div class="box1">
 <p>公用</p>
+<button class="button button1" onclick='location.href=("Public/chuyangqi.php")'>除氧器</button>
 </div>
   <div class="box1">
 <p>汽轮机</p>
+<button class="button button1" onclick='location.href=("Turbine1/benti.php")'>1号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine2/benti.php")'>2号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine3/benti.php")'>3号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine4/benti.php")'>4号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine5/benti.php")'>5号汽轮机</button>
 </div>
   <div class="box1">
 <p>脱硫</p>
-<button class="button button1" onclick='location.href=("CEMS.php")'>环保</button>
+<button class="button button1" onclick='location.href=("FGD/CEMS.php")'>环保</button>
+<button class="button button1" onclick='location.href=("FGD/FGD1.php")'>1号脱硫</button>
 <br>
 <button class="button button1">红色</button>
 <br>

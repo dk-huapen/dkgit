@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<?php include("header.php")?>
+		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
@@ -8,7 +8,7 @@
 		<script>
 page = 100;
 			var test =<?php
-			include('conn.php');
+			include('../conn.php');
 			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=100 or page1=100";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
@@ -106,16 +106,6 @@ page = 100;
 			<?php
 				$locateX = 0;
 				$locateY = 40;
-				function dkAI($kks){
-					global $pointArray;
-					global $locateX;
-					global $locateY;
-				$index = $pointArray[$kks][0];
-				$name = $pointArray[$kks][1];
-				$x = $pointArray[$kks][2];
-				$y = $pointArray[$kks][3];
-				echo "<text id = ".$kks." x=".($locateX+$x)." y=".($locateY+$y)."  fill='black' font-size='18' font-family='Arial' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)>512℃</text>";
-				}
 			?>
 
 
@@ -143,7 +133,6 @@ page = 100;
 
 	</svg>
 					<?php include("footer.php")?>
-					<?php include("comm.php")?>
 
 </body>
 </html>

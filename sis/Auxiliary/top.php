@@ -5,3 +5,6 @@
   <li><span>Contact</span></li>
   <li><span>About</span></li>
 </ul>
+<?php
+	include("../lib/PHP/fun.php")
+?>

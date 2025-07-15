@@ -1,7 +1,7 @@
 <html>
 	<head>
     		<title>1号炉风烟系统</title>
-		<?php include("header.php")?>
+		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
@@ -9,7 +9,7 @@
 		<script>
 			var page = 2;
 			var test =<?php
-			include('conn.php');
+			include('../conn.php');
 			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=2 or page1=2";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
@@ -34,7 +34,6 @@
 			<?php
 				$locateX = 0;
 				$locateY = 0;
-				require 'fun.php';
 			?>
 
 
@@ -44,9 +43,11 @@
 <text x="150" y="210" fill="black" font-size="20" font-family="Arial">左风箱</text>
 <rect x="50" y="220" width="250" height="400" fill="gray" stroke="balck" stroke-width="2"></rect>
 <rect x="50" y="620" width="250" height="30" fill="silver" stroke="balck" stroke-width="2"></rect>
+<text x="160" y="260" fill="black" font-size="20" font-family="Arial">压力高高停炉</text>
+<text x="160" y="590" fill="black" font-size="20" font-family="Arial">压力低低停炉</text>
 <text x="150" y="640" fill="black" font-size="20" font-family="Arial">右风箱</text>
-<text x="150" y="400" fill="black" font-size="40" font-family="Arial">炉</text>
-<text x="150" y="460" fill="black" font-size="40" font-family="Arial">膛</text>
+<text x="160" y="400" fill="black" font-size="40" font-family="Arial">炉</text>
+<text x="160" y="460" fill="black" font-size="40" font-family="Arial">膛</text>
 <!---炉膛-省煤器---->
 <line x1="300" y1="370" x2="490" y2="370" stroke="black" stroke-width="2"/>
 <line x1="300" y1="470" x2="490" y2="470" stroke="black" stroke-width="2"/>
@@ -137,7 +138,6 @@
 
 	</svg>
 					<?php include("footer.php")?>
-					<?php include("comm.php")?>
 
 </body>
 </html>
