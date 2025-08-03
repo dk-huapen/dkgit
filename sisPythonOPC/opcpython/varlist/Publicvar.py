@@ -31,27 +31,38 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.30QUB10CQ101:IO.Value'] = ["30QUB10CQ101","3号炉饱和蒸汽导电度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.30QUB20CQ101:IO.Value'] = ["30QUB20CQ101","3号炉过热蒸汽导电度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.30QUB20CQ102:IO.Value'] = ["30QUB20CQ102","3号炉过热蒸汽硅含量"]
+
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.10QUC10CQ101:IO.Value'] = ["10QUC10CQ101","#1机凝结水泵出口导电度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.10QUC10CQ102:IO.Value'] = ["10QUC10CQ102","#1机凝结水泵出口含氧量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.20QUC10CQ101:IO.Value'] = ["20QUC10CQ101","#2机凝结水泵出口导电度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.20QUC10CQ102:IO.Value'] = ["20QUC10CQ102","#2机凝结水泵出口含氧量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.30QUC10CQ101:IO.Value'] = ["30QUC10CQ101","#4机凝结水泵出口导电度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.30QUC10CQ102:IO.Value'] = ["30QUC10CQ102","#4机凝结水泵出口含氧量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.40QUC10CQ101:IO.Value'] = ["40QUC10CQ101","#5机凝结水泵出口导电度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.40QUC10CQ102:IO.Value'] = ["40QUC10CQ102","#5机凝结水泵出口含氧量"]
+
+
+
+
+
+
+
+
 #公用
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP11CQ002:IO.Value'] = ["J0LCP11CQ002","来自厂区冷除盐水PH"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP11CQ001:IO.Value'] = ["J0LCP11CQ001","冷除盐水电导率"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CP101:IO.Value'] = ["J0LCP21CP101","来自厂区冷除盐水压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CT301:IO.Value'] = ["J0LCP21CT301","来自厂区冷除盐水温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CQ002:IO.Value'] = ["J0LCP21CQ002","热除盐水母管PH"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CQ001:IO.Value'] = ["J0LCP21CQ001","热除盐水电导率"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB10CQ101:IO.Value'] = ["Y0QUB10CQ101","2.8二段蒸汽比电导率"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB20CQ101:IO.Value'] = ["Y0QUB20CQ101","0.5蒸汽比电导率"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB30CQ101:IO.Value'] = ["Y0QUB30CQ101","2.8一段蒸汽氢电导率"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB40CQ101:IO.Value'] = ["Y0QUB40CQ101","1.0蒸汽氢电导率"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB50CQ101:IO.Value'] = ["Y0QUB50CQ101","0.5蒸汽氢电导率"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QUB70CQ101:IO.Value'] = ["Y0QUB70CQ101","2.8二段蒸汽氢电导率"]#潞安SIS
-#公用
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C24.Diagrams.C24.Y0GHD54CP101:IO.Value'] = ["Y0GHD54CP101","来自厂区再生水管道压力"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C24.Diagrams.C24.Y0GHD54CF101_CALC:Out.Forward.Value'] = ["Y0GHD54CF101","来自厂区再生水管道流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C24.Diagrams.C24.Y0GHD54CF101_T:Out.Forward.Value'] = ["Y0GHD54CF101_T","来自厂区再生水累积流量"]#潞安SIS
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP11CP101:IO.Value'] = ["J0LCP11CP101","来自厂区热除盐水压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP11CT301:IO.Value'] = ["J0LCP11CT301","来自厂区热除盐水温度"]
 
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QLG51CP101:IO.Value'] = ["Y0QLG51CP101","热电装置区采暖水供水管道压力"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QLG51CT301:IO.Value'] = ["Y0QLG51CT301","热电装置区采暖水供水管道力温度"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QLG51CF101_CALC:Out.Forward.Value'] = ["Y0QLG51CF101","外供采暖水供水管道流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QLG52CF101_T:Out.Forward.Value'] = ["Y0QLG52CF101T","采暖供水累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.Y0QLG13CF101_T:Out.Forward.Value'] = ["Y0QLG13CF101T","采暖回水累积流量"]#潞安SIS
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.CJ0LCP11CP111:IO.Value'] = ["J0LCP11CP111","来自厂区合成除盐水压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.CJ0LCP11CT111:IO.Value'] = ["J0LCP11CT111","来自厂区合成除盐水温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.J0LCP11CF111_CALC:Out.Forward.Value'] = ["J0LCP11CF111","来自厂区合成除盐水流量"]
+
 
 
 #高压加热器
@@ -107,6 +118,10 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB13CP101:IO.Value'] = ["J0LAB13CP101","A2高压加热器出水压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB23CP101:IO.Value'] = ["J0LAB23CP101","B2高压加热器出水压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB33CP101:IO.Value'] = ["J0LAB33CP101","C2高压加热器出水压力"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBC40AA001FB:IO.Value'] = ["J0LBC40AA001GT","A2高压加热器进汽电动门开度反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBC50AA001FB:IO.Value'] = ["J0LBC50AA001GT","B2高压加热器进汽电动门开度反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBC60AA001FB:IO.Value'] = ["J0LBC60AA001GT","C2高压加热器进汽电动门开度反馈"]
 #高压管网
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA70CP101:IO.Value'] = ["J0LBA70CP101","主蒸汽母管压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA70CP102:IO.Value'] = ["J0LBA70CP102","主蒸汽母管压力"]
@@ -117,28 +132,12 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA20CP101:IO.Value'] = ["J0LBA20CP101","至一段高压/次高压减温减压器蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA30CP101:IO.Value'] = ["J0LBA30CP101","至二段高压/中压减温减压器蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40CP101:IO.Value'] = ["J0LBA40CP101","至高压/低压减温减压器蒸汽压力"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50CP101:IO.Value'] = ["J0LBA50CP101","9.8MPa高压蒸汽至空分一段蒸汽压力"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60CP101:IO.Value'] = ["J0LBA60CP101","9.8MPa高压蒸汽至空分二段蒸汽压力"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA23CP101:IO.Value'] = ["J0LBA23CP101","6.3MPa高压蒸汽至空分蒸汽压力"]#潞安SIS
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA10CT601:IO.Value'] = ["J0LBA10CT601","至高压/中压减温减压器蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA20CT601:IO.Value'] = ["J0LBA20CT601","至一段高压/次高压减温减压器蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA30CT601:IO.Value'] = ["J0LBA30CT601","至二段高压/次高压减温减压器蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40CT601:IO.Value'] = ["J0LBA40CT601","至高压/低高压减温减压器蒸汽温度"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50CT601:IO.Value'] = ["J0LBA50CT601","9.8MPa高压蒸汽至空分一段蒸汽温度"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60CT601:IO.Value'] = ["J0LBA60CT601","9.8MPa高压蒸汽至空分二段蒸汽温度"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA23CT601:IO.Value'] = ["J0LBA23CT601","6.3MPa高压蒸汽至空分蒸汽温度"]#潞安SIS
 
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA10CF101_CALC:Out.Forward.Value'] = ["J0LBA10CF101","高压/中压减温减压器蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA20CF101_CALC:Out.Forward.Value'] = ["J0LBA20CF101","一段高压/次高压减温减压器蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA30CF101_CALC:Out.Forward.Value'] = ["J0LBA30CF101","二段高压/次高压减温减压器蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40CF101_CALC:Out.Forward.Value'] = ["J0LBA40CF101","高压/低压减温减压器蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50CF101_CALC:Out.Forward.Value'] = ["J0LBA50CF101","9.8MPa高压蒸汽至空分一段蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60CF101_CALC:Out.Forward.Value'] = ["J0LBA60CF101","9.8MPa高压蒸汽至空分二段蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA23CF101_CALC:Out.Forward.Value'] = ["J0LBA23CF101","6.3MPa高压蒸汽至空分蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA23CF101_T:Out.Forward.Value'] = ["J0LBA23CF101T","6.3MPa高压蒸汽至空分蒸汽累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50CF101_T:Out.Forward.Value'] = ["J0LBA50CF101T","9.8MPa高压蒸汽至空分一段蒸汽累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60CF101_T:Out.Forward.Value'] = ["J0LBA60CF101T","9.8MPa高压蒸汽至空分二段蒸汽累积流量"]#潞安SIS
 #次高压管网
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB21CT611:IO.Value'] = ["J0LBB21CT611","一段高压/次高压减温减压器出口蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB20CT201:IO.Value'] = ["J0LBB20CT201","一段高压/次高压减温减压器出口蒸汽管道壁度1"]
@@ -147,8 +146,6 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50CT201:IO.Value'] = ["J0LBB50CT201","二段高压/次高压减温减压器出口蒸汽管道壁度1"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50CT202:IO.Value'] = ["J0LBB50CT202","二段高压/次高压减温减压器出口蒸汽管道壁度2"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50CT601:IO.Value'] = ["J0LBB50CT601","二段高压/次高压减温减压器出口蒸汽温度(二次门前)"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CT601:IO.Value'] = ["J0LBB60CT601","一段次高压外供蒸汽温度"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25CT601:IO.Value'] = ["J0LBB25CT601","二段次高压外供蒸汽温度"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB30CT601:IO.Value'] = ["J0LBB30CT601","一段次高压/低低压减温减压器进口蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB30CT611:IO.Value'] = ["J0LBB30CT611","一段次高压/低低压减温减压器出口蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB40CT601:IO.Value'] = ["J0LBB40CT601","二段次高压/低低压减温减压器进口蒸汽温度"]
@@ -159,8 +156,6 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB20CP101:IO.Value'] = ["J0LBB20CP101","一段高压/次高压减温减压器出口蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50CP101:IO.Value'] = ["J0LBB50CP101","二段高压/次高压减温减压器出口蒸汽压力"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CP101:IO.Value'] = ["J0LBB60CP101","一段次高压外供蒸汽压力"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25CP101:IO.Value'] = ["J0LBB25CP101","二段次高压外供蒸汽压力"]##潞安SIS未添加至SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB30CP101:IO.Value'] = ["J0LBB30CP101","一段次高压/低低压减温减压器进口蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB40CP101:IO.Value'] = ["J0LBB40CP101","二段次高压/低低压减温减压器进口蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB30CP111:IO.Value'] = ["J0LBB30CP111","一段次高压/低低压减温减压器出口蒸汽压力"]
@@ -169,19 +164,10 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10CP101:IO.Value'] = ["J0LBB10CP101","次高压蒸汽母管压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10CP102:IO.Value'] = ["J0LBB10CP102","次高压蒸汽母管压力"]
 
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB30CF101_CALC:Out.Forward.Value'] = ["J0LBB30CF101","一段次高压/低低压减温减压器进口蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB40CF101_CALC:Out.Forward.Value'] = ["J0LBB40CF101","二段次高压/低低压减温减压器进口蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25CF101_Cal:Out.Forward.Value'] = ["J0LBB25CF101","二段次高压外供蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CF101_CALC:Out.Forward.Value'] = ["J0LBB60CF101","一段次高压外供蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CF102_CALC:Out.Forward.Value'] = ["J0LBB60CF102","一段次高压返回蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25CF101_T:Out.Forward.Value'] = ["J0LBB25CF101T","二段次高压外供蒸汽累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CF101_T:Out.Forward.Value'] = ["J0LBB60CF101T","一段次高压外供蒸汽累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60CF102_T:Out.Forward.Value'] = ["J0LBB60CF102T","一段次高压返回蒸汽累积流量"]#潞安SIS
 #中压管网
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CP111:IO.Value'] = ["J0LBC10CP111","高压/中压减温减压器出口门前蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CP101:IO.Value'] = ["J0LBC10CP101","来自厂区二段中压饱和蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12CP101:IO.Value'] = ["J0LBC12CP101","来自厂区一段中压饱和蒸汽压力"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CP101:IO.Value'] = ["J0LBC13CP101","送至厂区中压饱和蒸汽管网压力"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CP102:IO.Value'] = ["J0LBC13CP102","中压饱和蒸汽母管压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CP102:IO.Value'] = ["J0LBC10CP102","中压饱和蒸汽母管压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC70CP101:IO.Value'] = ["J0LBC70CP101","高压/中压减温减压器出口门后蒸汽压力"]
@@ -195,7 +181,6 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CT611:IO.Value'] = ["J0LBC10CT611","高压/中压减温减压器出口门前蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CT601:IO.Value'] = ["J0LBC10CT601","来自厂区二段中压饱和蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12CT601:IO.Value'] = ["J0LBC12CT601","来自厂区一段中压饱和蒸汽温度"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CT601:IO.Value'] = ["J0LBC13CT601","送至厂区中压饱和蒸汽管网温度"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CT602:IO.Value'] = ["J0LBC13CT602","中压饱和蒸汽母管温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC70CT601:IO.Value'] = ["J0LBC70CT601","高压/中压减温减压器出口门后蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC30CT601:IO.Value'] = ["J0LBC30CT601","一段中压至低低压减温减压器进口蒸汽温度"]
@@ -203,27 +188,15 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CF101_CALC:Out.Forward.Value'] = ["J0LBC10CF101","来自厂区二段中压饱和蒸汽流量"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12CF101_CALC:Out.Forward.Value'] = ["J0LBC12CF101","来自厂区一段中压饱和蒸汽流量"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CF101_CALC:Out.Forward.Value'] = ["J0LBC13CF101","送至厂区中压饱和蒸汽管网流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC30CF101_CALC:Out.Forward.Value'] = ["J0LBC30CF101","一段中压至低低压减温减压器进口蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC20CF101_CALC:Out.Forward.Value'] = ["J0LBC20CF101","二段中压至低低压减温减压器进口蒸汽流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10CF101_T:Out.Forward.Value'] = ["J0LBC10CF101T","送至厂区中压饱和蒸汽管网累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12CF101_T:Out.Forward.Value'] = ["J0LBC12CF101T","送至厂区中压饱和蒸汽管网累积流量"]#潞安SIS
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC13CF101_T:Out.Forward.Value'] = ["J0LBC13CF101T","送至厂区中压饱和蒸汽管网累积流量"]#潞安SIS
 #低压管网
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40CP111:IO.Value'] = ["J0LBG40CP111","高压/低压减温减压器出口蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40CP101:IO.Value'] = ["J0LBG40CP101","高压/低压减温减压器出口蒸汽压力"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CP101:IO.Value'] = ["J0LBG50CP101","厂区低压蒸汽压力"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CP102:IO.Value'] = ["J0LBG50CP102","厂区低压蒸汽压力"]
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40CT611:IO.Value'] = ["J0LBG40CT611","高压/低压减温减压器出口蒸汽温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40CT601:IO.Value'] = ["J0LBG40CT601","高压/低压减温减压器出口蒸汽温度"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CT601:IO.Value'] = ["J0LBG50CT601","厂区低压蒸汽温度"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CT602:IO.Value'] = ["J0LBG50CT602","厂区低压蒸汽温度"]
 
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CF101_CALC:Out.Forward.Value'] = ["J0LBG50CF101","厂区低压外供蒸汽流量"]#潞安SIS#SIS未添加
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CF102_CALC:Out.Forward.Value'] = ["J0LBG50CF102","厂区低压返回蒸汽流量"]#SIS未添加
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CF101_T:Out.Forward.Value'] = ["J0LBG50CF101T","厂区低压外供蒸汽累积流量"]#潞安SIS#SIS未添加
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG50CF102_T:Out.Forward.Value'] = ["J0LBG50CF102T","厂区低压返回蒸汽累积流量"]#潞安SIS#SIS未添加
 #低低压管网
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC31CP101:IO.Value'] = ["J0LBC31CP101","一段次高压压至低低压减温减压器出口蒸汽压力"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC32CP101:IO.Value'] = ["J0LBC32CP101","二段次高压压至低低压减温减压器出口蒸汽压力"]
@@ -239,6 +212,7 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD51CF101_CALC:Out.Forward.Value'] = ["J0LBD51CF101","二段外供厂区低低压蒸汽流量"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD52CF101_CALC:Out.Forward.Value'] = ["J0LBD52CF101","一段外供厂区低低压蒸汽流量"]
+
 #除氧器
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAA10CP101:IO.Value'] = ["J0LAA10CP101","1号除氧器压力1"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAA10CP102:IO.Value'] = ["J0LAA10CP102","1号除氧器压力2"]
@@ -290,6 +264,48 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB70CT301:IO.Value'] = ["J0LAB70CT301","高压热给水母管温度1"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB70CT302:IO.Value'] = ["J0LAB70CT302","高压热给水母管温度2"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB70CT303:IO.Value'] = ["J0LAB70CT303","高压热给水母管温度3"]
+#厂区流量参数
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HSJ11CT301:IO.Value'] = ["Y0HSJ11CT301","来至厂区氨管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HSJ11CP101:IO.Value'] = ["Y0HSJ11CP101","来至厂区氨管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HSJ11CF101_CALC:Out.Forward.Value'] = ["Y0HSJ11CF101","来至厂区氨管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HSJ11CF101_T:Out.Forward.Value'] = ["Y0HSJ11CF101T","来至厂区氨管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA10CP101:IO.Value'] = ["J0LCA10CP101","外供厂区凝结水管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA10CT301:IO.Value'] = ["J0LCA10CT301","外供厂区凝结水管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA10CF101_CALC:Out.Forward.Value'] = ["J0LCA10CF101","外供厂区凝结水管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA10CF101_T:Out.Forward.Value'] = ["J0LCA10CF101T","外供厂区凝结水管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA40CP101:IO.Value'] = ["J0LCA40CP101","来至厂区氮气管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA40CT301:IO.Value'] = ["J0LCA40CT301","来至厂区氮气管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA40CF101:Out.Forward.Value'] = ["J0LCA40CF101","来至厂区氮气管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LCA40CF101_T:Out.Forward.Value'] = ["J0LCA40CF101T","来至厂区氮气管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE51CP101:IO.Value'] = ["Y0PGE51CP101","来至厂区循环水管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE51CF101_T:Out.Forward.Value'] = ["Y0PGE51CF101T","来至厂区循环水管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE50CP101:IO.Value'] = ["Y0PGE50CP101","外供厂区循环水管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE50CT301:IO.Value'] = ["Y0PGE50CT301","外供厂区循环水管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE50CF101_CALC:Out.Forward.Value'] = ["Y0PGE50CF101","外供厂区循环水管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE50CF101_T:Out.Forward.Value'] = ["Y0PGE50CF101T","外供厂区循环水管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0PGE50BJ001H:Out.Forward.Value'] = ["Y0PGE50BJ001H","循环水供回水流量偏差"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0QFB11CP101:IO.Value'] = ["Y0QFB11CP101","来自厂区仪用气管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0QFB11CT301:IO.Value'] = ["Y0QFB11CT301","来自厂区仪用气管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0QFB11CF101_CALC:Out.Forward.Value'] = ["Y0QFB11CF101","来自厂区仪用气管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0QFB11CF101_T:Out.Forward.Value'] = ["Y0QFB11CF101T","来自厂区仪用气管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HTJ11CP101:IO.Value'] = ["Y0HTJ11CP101","来自厂区液氨管道压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HTJ11CT301:IO.Value'] = ["Y0HTJ11CT301","来自厂区液氨管道温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HTJ11CF101_CALC:Out.Forward.Value'] = ["Y0HTJ11CF101","来自厂区液氨管道流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.Y0HTJ11CF101_T:Out.Forward.Value'] = ["Y0HTJ11CF101T","来自厂区液氨管道累积流量"]
+Publiclist[u'[Control Structure].Root.Net#4 Control Network.LuAnPowerPlantNet4.Applications.C32.Diagrams.Turbine5.C_J0LCP31CF101_CAL:Out.Forward.Value'] = ["J0LCP31CF101","来自厂区冷除盐水旁路流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CF101_T:Out.Forward.Value'] = ["J0LCP21CF101T","冷除盐水累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP21CF101_CALC:Out.Forward.Value'] = ["J0LCP21CF101","冷除盐水流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP11CF101_CALC:Out.Forward.Value'] = ["J0LCP11CF101","热除盐水流量"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C25.Diagrams.C25.Y0MILL_A_CF101:IO.Value'] = ["Y0MILLACF101","8号A输煤皮带瞬时煤量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C25.Diagrams.C25.Y0MILL_A_CF101_T:Out.Forward.Value'] = ["Y0MILLACF101T","8号A输煤皮带累积煤量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C25.Diagrams.C25.Y0MILL_B_CF101:IO.Value'] = ["Y0MILLBCF101","8号B输煤皮带瞬时煤量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C25.Diagrams.C25.Y0MILL_B_CF101_T:Out.Forward.Value'] = ["Y0MILLBCF101T","8号B输煤皮带累积煤量"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBA20CF101_CALC_T:Out.Forward.Value'] = ["J0LBA20CF101T","一段高压/次高压减温减压器蒸汽累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBA30CF101_CALC_T:Out.Forward.Value'] = ["J0LBA30CF101T","二段高压/次高压减温减压器蒸汽累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBA10CF101_CALC_T:Out.Forward.Value'] = ["J0LBA10CF101T","高压/中压减温减压器蒸汽累积流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LBA40CF101_CALC_T:Out.Forward.Value'] = ["J0LBA40CF101T","高压/低压减温减压器蒸汽累积流量"]
 #1号电动给水泵
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC10CT201:IO.Value'] = ["J0LAC10CT201","1号电动给水泵电机U相绕组温度"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC10CT204:IO.Value'] = ["J0LAC10CT204","1号电动给水泵电机V相绕组温度"]
@@ -397,19 +413,20 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC42CL101:IO.Value'] = ["J0LFC42CL101","1号疏水箱液位"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC43CL101:IO.Value'] = ["J0LFC43CL101","3号疏水箱液位"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC44CL101:IO.Value'] = ["J0LFC44CL101","4号疏水箱液位"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC81CL101:IO.Value'] = ["J0LFC81CL101","低位水箱液位"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC10CL101:IO.Value'] = ["J0LFC10CL101","疏水扩容器液位"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC20CL101:IO.Value'] = ["J0LFC20CL101","疏水扩容器液位"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC61CP101:IO.Value'] = ["J0LFC61CP101","疏水泵母管出口压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC64CP101:IO.Value'] = ["J0LFC64CP101","疏水泵母管出口压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC82CP101:IO.Value'] = ["J0LFC82CP101","低位水泵母管出口压力"]
 #调节门
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA21AA101AO:IO.FB.Value'] = ["J0LBA21AA101GT","6.3一线双减压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA21AA102AO:IO.FB.Value'] = ["J0LBA21AA102GT","6.3一线双减减温水调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA22AA101AO:IO.FB.Value'] = ["J0LBA22AA101GT","6.3二线双减压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA22AA102AO:IO.FB.Value'] = ["J0LBA22AA102GT","6.3二线双减减温水调节阀反馈"]
 
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA10AA101AO:IO.FB.Value'] = ["J0LBA10AA101GT","高压至中压减温减压器压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA10AA102AO:IO.FB.Value'] = ["J0LBA10AA102GT","高压至中压减温减压器减温水调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA20AA101AO:IO.FB.Value'] = ["J0LBA20AA101GT","一段高压至次高压减温减压器压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA20AA102AO:IO.FB.Value'] = ["J0LBA20AA102GT","一段高压至次高压减温减压器减温水调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA30AA101AO:IO.FB.Value'] = ["J0LBA30AA101GT","二段高压至次高压减温减压器压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA30AA102AO:IO.FB.Value'] = ["J0LBA30AA102GT","二段高压至次高压减温减压器减温水调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40AA101AO:IO.FB.Value'] = ["J0LBA40AA101GT","高压至低压减温减压器压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40AA102AO:IO.FB.Value'] = ["J0LBA40AA102GT","高压至低压减温减压器减温水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50AA101AO:IO.FB.Value'] = ["J0LBA50AA101GT","低压蒸汽母管至一级高加进汽压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBB30AA101AO:IO.FB.Value'] = ["J0LBB30AA101GT","一段次高压至低低压减温减压器压力调节阀反馈"]
@@ -418,24 +435,39 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBB40AA102AO:IO.FB.Value'] = ["J0LBB40AA102GT","二段次高压至低低压减温减压器减温水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC20AA101AO:IO.FB.Value'] = ["J0LBC20AA101GT","二段中压至低低压减温减压器压力调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC30AA101AO:IO.FB.Value'] = ["J0LBC30AA101GT","一段中压至低低压减温减压器压力调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10AA191AO:IO.FB.Value'] = ["J0LBB10AA191GT","次高压蒸汽排空调节阀反馈"]
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LAE61AA101AO:IO.FB.Value'] = ["J0LAE61AA101GT","一段次高压外供蒸汽减温减压器减温水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LAE25AA101AO:IO.FB.Value'] = ["J0LAE25AA101GT","一段次高压外供蒸汽减温减压器减温水调节阀反馈"]
-#Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.CJ0LAE10AA113AO:IO.FB.Value'] = ["J0LAE10AA113GT","高压至低压旁路减温水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.CJ0LAE10AA113AO:IO.FB.Value'] = ["J0LAE10AA113GT","高压至低压旁路减温水调节阀反馈"]
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD10AA101AO:IO.FB.Value'] = ["J0LBD10AA101GT","1号除氧器进汽调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP10AA101AO:IO.FB.Value'] = ["J0LBD10AA101GT","1号除氧器进水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP10AA101AO:IO.FB.Value'] = ["J0LCP10AA101GT","1号除氧器进水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD20AA101AO:IO.FB.Value'] = ["J0LBD20AA101GT","2号除氧器进汽调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP20AA101AO:IO.FB.Value'] = ["J0LBD20AA101GT","2号除氧器进水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP20AA101AO:IO.FB.Value'] = ["J0LCP20AA101GT","2号除氧器进水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD30AA101AO:IO.FB.Value'] = ["J0LBD30AA101GT","3号除氧器进汽调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP30AA101AO:IO.FB.Value'] = ["J0LBD30AA101GT","3号除氧器进水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP30AA101AO:IO.FB.Value'] = ["J0LCP30AA101GT","3号除氧器进水调节阀反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD40AA101AO:IO.FB.Value'] = ["J0LBD40AA101GT","4号除氧器进汽调节阀反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP40AA101AO:IO.FB.Value'] = ["J0LBD40AA101GT","4号除氧器进水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCP40AA101AO:IO.FB.Value'] = ["J0LCP40AA101GT","4号除氧器进水调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.CJ0LCP10AA201AO:IO.FB.Value'] = ["J0LCP10AA201GT","合成至1号炉除氧器水位调门"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C27.Diagrams.C27.CJ0LCP20AA201AO:IO.FB.Value'] = ["J0LCP20AA201GT","合成至2号炉除氧器水位调门"]
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAP10AA101AO:IO.FB.Value'] = ["J0LAP10AA101GT","1号电动给水泵液偶勺管开度反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAP20AA101AO:IO.FB.Value'] = ["J0LAP20AA101GT","2号电动给水泵液偶勺管开度反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAP30AA101AO:IO.FB.Value'] = ["J0LAP30AA101GT","3号电动给水泵液偶勺管开度反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAP40AA101AO:IO.FB.Value'] = ["J0LAP40AA101GT","4号电动给水泵液偶勺管开度反馈"]
+#汽动给水泵
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAA51CP101:IO.Value'] = ["J0LAA51CP101","给水泵进口压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAH50CP101:IO.Value'] = ["J0LAH50CP101","汽动给水泵再循环管压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAB50CP101:IO.Value'] = ["J0LAB50CP101","汽动给水泵出口压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50CP101:IO.Value'] = ["J0LBR50CP101","给水泵汽轮机进汽压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50CP102:IO.Value'] = ["J0LBR50CP102","给水泵汽轮机进汽压力"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50CT601:IO.Value'] = ["J0LBR50CT601","给水泵汽轮机进汽温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50CT602:IO.Value'] = ["J0LBR50CT602","给水泵汽轮机进汽温度"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50CF101_CALC:Out.Forward.Value'] = ["J0LBR50CF101","给水泵汽轮机进汽流量"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC50CS101:IO.Value'] = ["J0LAC50CS101","给水泵汽轮机转速"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC50CS102:IO.Value'] = ["J0LAC50CS102","给水泵汽轮机转速"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC50CS103:IO.Value'] = ["J0LAC50CS103","给水泵汽轮机转速"]
 
 #开关量
 #高压
@@ -459,10 +491,18 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40AA001:IO.FB0.Value'] = ["J0LBA40AA001_FB0","高压至低压减温减压器进口电动一次门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40AA002:IO.FB1.Value'] = ["J0LBA40AA002_FB1","高压至低压减温减压器进口电动二次门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA40AA002:IO.FB0.Value'] = ["J0LBA40AA002_FB0","高压至低压减温减压器进口电动二次门全关反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50AA001:IO.FB1.Value'] = ["J0LBA50AA001_FB1","高压至一段空分装置电动一次门全开反馈"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA50AA001:IO.FB0.Value'] = ["J0LBA50AA001_FB0","高压至一段空分装置电动一次门全关反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60AA002:IO.FB1.Value'] = ["J0LBA60AA002_FB1","高压至二段空分装置电动一次门全开反馈"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA60AA002:IO.FB0.Value'] = ["J0LBA60AA002_FB0","高压至二段空分装置电动一次门全关反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA50AA002:Opened.Value'] = ["J0LBA50AA002_FB1","高压至一段空分装置电动二次门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA50AA002:Closed.Value'] = ["J0LBA50AA002_FB0","高压至一段空分装置电动二次门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA60AA001:Opened.Value'] = ["J0LBA60AA001_FB1","高压至二段空分装置电动一次门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA60AA001:Closed.Value'] = ["J0LBA60AA001_FB0","高压至二段空分装置电动一次门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA50AA002PM:IO.Value'] = ["J0LBA50AA002ZF","高压至一段空分装置电动二次门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA50AA002RM:IO.Value'] = ["J0LBA50AA002RM","高压至一段空分装置电动二次门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA60AA001PM:IO.Value'] = ["J0LBA60AA001ZF","高压至二段空分装置电动二次门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.newvalve1.J0LBA60AA001RM:IO.Value'] = ["J0LBA60AA001RM","高压至二段空分装置电动二次门远方反馈"]
+
 
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA21AA001:IO.FB1.Value'] = ["J0LBA21AA001_FB1","6.3一线双减蒸汽进口电动一次门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA21AA001:IO.FB0.Value'] = ["J0LBA21AA001_FB0","6.3一线双减蒸汽进口电动一次门全关反馈"]
@@ -482,6 +522,8 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA22AA004:IO.FB1.Value'] = ["J0LBA22AA004_FB1","6.3二线双减蒸汽出口电动二次门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBA22AA004:IO.FB0.Value'] = ["J0LBA22AA004_FB0","6.3二线双减蒸汽出口电动二次门全关反馈"]
 #次高压
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10AA192:IO.FB1.Value'] = ["J0LBB10AA192_FB1","次高压蒸排空阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10AA192:IO.FB0.Value'] = ["J0LBB10AA192_FB0","次高压蒸排空阀全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10AA001:IO.FB1.Value'] = ["J0LBB10AA001_FB1","次高压蒸汽母管联络电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB10AA001:IO.FB0.Value'] = ["J0LBB10AA001_FB0","次高压蒸汽母管联络电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB20AA001:IO.FB1.Value'] = ["J0LBB20AA001_FB1","一段高压至次高压减温减压器出口电动二次门全开反馈"]
@@ -492,11 +534,9 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50AA001:IO.FB0.Value'] = ["J0LBB50AA001_FB0","二段高压至次高压减温减压器出口电动二次门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50AA002:IO.FB1.Value'] = ["J0LBB50AA002_FB1","二段高压至次高压减温减压器出口电动一次门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50AA002:IO.FB0.Value'] = ["J0LBB50AA002_FB0","二段高压至次高压减温减压器出口电动一次门全关反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60AA001:IO.FB1.Value'] = ["J0LBB60AA001_FB1","一段次高压外供蒸汽减温减压器入口电动门全开反馈"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60AA001:IO.FB0.Value'] = ["J0LBB60AA001_FB0","一段次高压外供蒸汽减温减压器入口电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60AA002:IO.FB1.Value'] = ["J0LBB60AA002_FB1","一段次高压外供蒸汽减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB60AA002:IO.FB0.Value'] = ["J0LBB60AA002_FB0","一段次高压外供蒸汽减温减压器出口电动门全关反馈"]
-Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25AA001:IO.FB1.Value'] = ["J0LBB25AA001_FB1","二段次高压外供蒸汽减温减压器入口电动门全开反馈"]#潞安SIS
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25AA001:IO.FB0.Value'] = ["J0LBB25AA001_FB0","二段次高压外供蒸汽减温减压器入口电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25AA002:IO.FB1.Value'] = ["J0LBB25AA002_FB1","二段次高压外供蒸汽减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB25AA002:IO.FB0.Value'] = ["J0LBB25AA002_FB0","二段次高压外供蒸汽减温减压器出口电动门全关反馈"]
@@ -509,6 +549,10 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC11AA001:IO.FB0.Value'] = ["J0LBC11AA001_FB0","来自厂区中压饱和蒸汽联络电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC70AA002:IO.FB1.Value'] = ["J0LBC70AA002_FB1","高压至中压减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC70AA002:IO.FB0.Value'] = ["J0LBC70AA002_FB0","高压至中压减温减压器出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10AA001:Opened.Value'] = ["J0LBC10AA001_FB1","二段中压与合成饱和蒸汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10AA001:Closed.Value'] = ["J0LBC10AA001_FB0","二段中压与合成饱和蒸汽电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12AA001:Opened.Value'] = ["J0LBC12AA001_FB1","一段中压与合成饱和蒸汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12AA001:Closed.Value'] = ["J0LBC12AA001_FB0","一段中压与合成饱和蒸汽电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC20AA002:IO.FB1.Value'] = ["J0LBC20AA002_FB1","二段中压至低低压减温减压器进口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC20AA002:IO.FB0.Value'] = ["J0LBC20AA002_FB0","二段中压至低低压减温减压器进口电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC22AA001:IO.FB1.Value'] = ["J0LBC22AA001_FB1","二段中压至低低压减温减压器出口电动门全开反馈"]
@@ -517,9 +561,43 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC30AA002:IO.FB0.Value'] = ["J0LBC30AA002_FB0","一段中压至低低压减温减压器进口电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC21AA001:IO.FB1.Value'] = ["J0LBC21AA001_FB1","一段中压至低低压减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC21AA001:IO.FB0.Value'] = ["J0LBC21AA001_FB0","一段中压至低低压减温减压器出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC40AA001:Opened.Value'] = ["J0LBC40AA001_FB1","A2高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC40AA001:Closed.Value'] = ["J0LBC40AA001_FB0","A2高压加热器进汽电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC50AA001:Opened.Value'] = ["J0LBC50AA001_FB1","B2高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC50AA001:Closed.Value'] = ["J0LBC50AA001_FB0","B2高压加热器进汽电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC60AA001:Opened.Value'] = ["J0LBC60AA001_FB1","C2高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC60AA001:Closed.Value'] = ["J0LBC60AA001_FB0","C2高压加热器进汽电动门全关反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC40AA001RM:IO.Value'] = ["J0LBC40AA001RM","A2高压加热器进汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC50AA001RM:IO.Value'] = ["J0LBC50AA001RM","B2高压加热器进汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC60AA001RM:IO.Value'] = ["J0LBC60AA001RM","C2高压加热器进汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH11AA101AO:IO.FB.Value'] = ["J0LCH11AA101GT","A2高压加热器疏水至A1高压加热器调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH21AA101AO:IO.FB.Value'] = ["J0LCH21AA101GT","A1高压加热器疏水至除氧器调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH31AA101AO:IO.FB.Value'] = ["J0LCH31AA101GT","B2高压加热器疏水至A1高压加热器调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH41AA101AO:IO.FB.Value'] = ["J0LCH41AA101GT","B1高压加热器疏水至除氧器调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH51AA101AO:IO.FB.Value'] = ["J0LCH51AA101GT","C2高压加热器疏水至A1高压加热器调节阀反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH61AA101AO:IO.FB.Value'] = ["J0LCH61AA101GT","C1高压加热器疏水至除氧器调节阀反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10AA001PM:IO.Value'] = ["J0LBC10AA001ZF","二段中压与合成饱和蒸汽电动门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC10AA001RM:IO.Value'] = ["J0LBC10AA001RM","二段中压与合成饱和蒸汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12AA001PM:IO.Value'] = ["J0LBC12AA001ZF","一段中压与合成饱和蒸汽电动门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBC12AA001RM:IO.Value'] = ["J0LBC12AA001RM","一段中压与合成饱和蒸汽电动门远方反馈"]
 #低压
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40AA001:IO.FB1.Value'] = ["J0LBG40AA001_FB1","高压至低压减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG40AA001:IO.FB0.Value'] = ["J0LBG40AA001_FB0","高压至低压减温减压器出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG10AA001:Opened.Value'] = ["J0LBG10AA001_FB1","A1高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG10AA001:Closed.Value'] = ["J0LBG10AA001_FB0","A1高压加热器进汽电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG20AA001:Opened.Value'] = ["J0LBG20AA001_FB1","B1高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG20AA001:Closed.Value'] = ["J0LBG20AA001_FB0","B1高压加热器进汽电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG30AA001:Opened.Value'] = ["J0LBG30AA001_FB1","C1高压加热器进汽电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG30AA001:Closed.Value'] = ["J0LBG30AA001_FB0","C1高压加热器进汽电动门全关反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG10AA001PM:IO.Value'] = ["J0LBG10AA001ZF","A1高压加热器进汽电动门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG10AA001RM:IO.Value'] = ["J0LBG10AA001RM","A1高压加热器进汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG20AA001PM:IO.Value'] = ["J0LBG20AA001ZF","B1高压加热器进汽电动门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG20AA001RM:IO.Value'] = ["J0LBG20AA001RM","B1高压加热器进汽电动门远方反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG30AA001PM:IO.Value'] = ["J0LBG30AA001ZF","C1高压加热器进汽电动门故障反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBG30AA001RM:IO.Value'] = ["J0LBG30AA001RM","C1高压加热器进汽电动门远方反馈"]
 #低低压
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC31AA001:IO.FB1.Value'] = ["J0LBC31AA001_FB1","一段次高压至低低压减温减压器出口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBC31AA001:IO.FB0.Value'] = ["J0LBC31AA001_FB0","一段次高压至低低压减温减压器出口电动门全关反馈"]
@@ -533,12 +611,45 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD54AA001:IO.FB0.Value'] = ["J0LBD54AA001_FB0","一段中压至低低压减温减压器出口至除氧器电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD56AA001:IO.FB1.Value'] = ["J0LBD56AA001_FB1","一段次高压至低低压减温减压器出口至除氧器电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LBD56AA001:IO.FB0.Value'] = ["J0LBD56AA001_FB0","一段次高压至低低压减温减压器出口至除氧器电动门全关反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LBD52AA001:Opened.Value'] = ["J0LBD52AA001_FB1","一段低低压外供隔离阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LBD52AA001:Closed.Value'] = ["J0LBD52AA001_FB0","一段低低压外供隔离阀全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LBD51AA001:Opened.Value'] = ["J0LBD51AA001_FB1","二段低低压外供隔离阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LBD51AA001:Closed.Value'] = ["J0LBD51AA001_FB0","二段低低压外供隔离阀全关反馈"]
 #疏水
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB20AA030:IO.FB1.Value'] = ["J0LBB20AA030_FB1","一段高压至次高压减温减压器出口母管疏水电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB20AA030:IO.FB0.Value'] = ["J0LBB20AA030_FB0","一段高压至次高压减温减压器出口母管疏水电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50AA030:IO.FB1.Value'] = ["J0LBB50AA030_FB1","二段高压至次高压减温减压器出口母管疏水电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LBB50AA030:IO.FB0.Value'] = ["J0LBB50AA030_FB0","二段高压至次高压减温减压器出口母管疏水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH12AA001:IO.FB1.Value'] = ["J0LCH12AA001_FB1","A2高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH12AA001:IO.FB0.Value'] = ["J0LCH12AA001_FB0","A2高压加热器紧急放水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH22AA001:IO.FB1.Value'] = ["J0LCH22AA001_FB1","A1高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH22AA001:IO.FB0.Value'] = ["J0LCH22AA001_FB0","A1高压加热器紧急放水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH32AA001:IO.FB1.Value'] = ["J0LCH32AA001_FB1","B2高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH32AA001:IO.FB0.Value'] = ["J0LCH32AA001_FB0","B2高压加热器紧急放水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH42AA001:IO.FB1.Value'] = ["J0LCH42AA001_FB1","B1高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH42AA001:IO.FB0.Value'] = ["J0LCH42AA001_FB0","B1高压加热器紧急放水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH52AA001:IO.FB1.Value'] = ["J0LCH52AA001_FB1","C2高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH52AA001:IO.FB0.Value'] = ["J0LCH52AA001_FB0","C2高压加热器紧急放水电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH62AA001:IO.FB1.Value'] = ["J0LCH62AA001_FB1","C1高压加热器紧急放水电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LCH62AA001:IO.FB0.Value'] = ["J0LCH62AA001_FB0","C1高压加热器紧急放水电动门全关反馈"]
 
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC51AP001:IO.FB1.Value'] = ["J0LFC51AP001_FB1","疏水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC51AP001:IO.FB0.Value'] = ["J0LFC51AP001_FB0","疏水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC52AP001:IO.FB1.Value'] = ["J0LFC52AP001_FB1","疏水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC52AP001:IO.FB0.Value'] = ["J0LFC52AP001_FB0","疏水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC53AP001:IO.FB1.Value'] = ["J0LFC53AP001_FB1","疏水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC53AP001:IO.FB0.Value'] = ["J0LFC53AP001_FB0","疏水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC54AP001:IO.FB1.Value'] = ["J0LFC54AP001_FB1","疏水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC54AP001:IO.FB0.Value'] = ["J0LFC54AP001_FB0","疏水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC88AP001:IO.FB1.Value'] = ["J0LFC88AP001_FB1","低位水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC88AP001:IO.FB0.Value'] = ["J0LFC88AP001_FB0","低位水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC98AP001:IO.FB1.Value'] = ["J0LFC98AP001_FB1","低位水泵运行反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC98AP001:IO.FB0.Value'] = ["J0LFC98AP001_FB0","低位水泵停止反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC62AA001:IO.FB1.Value'] = ["J0LFC62AA001_FB1","疏水泵出口母管电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC62AA001:IO.FB0.Value'] = ["J0LFC62AA001_FB0","疏水泵出口母管电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC63AA001:IO.FB1.Value'] = ["J0LFC63AA001_FB1","疏水泵出口母管至定排电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LFC63AA001:IO.FB0.Value'] = ["J0LFC63AA001_FB0","疏水泵出口母管至定排电动门全关反馈"]
 #减温水
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LAE10AA002:IO.FB1.Value'] = ["J0LAE10AA002_FB1","高压至中压减温减压器减温水进口电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C33.Diagrams.C33.J0LAE10AA002:IO.FB0.Value'] = ["J0LAE10AA002_FB0","高压至中压减温减压器减温水进口电动门全关反馈"]
@@ -581,6 +692,25 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB62AA001:IO.FB0.Value'] = ["J0LAB62AA001_FB0","2号高压给水旁路电动门全关反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB63AA001:IO.FB1.Value'] = ["J0LAB63AA001_FB1","3号高压给水旁路电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB63AA001:IO.FB0.Value'] = ["J0LAB63AA001_FB0","3号高压给水旁路电动门全关反馈"]
+
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB13AA001:Opened.Value'] = ["J0LAB13AA001_FB1","A2高加水侧出口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB13AA001:Closed.Value'] = ["J0LAB13AA001_FB0","A2高加水侧出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB11AA001:IO.FB1.Value'] = ["J0LAB11AA001_FB1","A2高加水侧进口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB11AA001:IO.FB0.Value'] = ["J0LAB11AA001_FB0","A2高加水侧进口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB11AA002:IO.FB1.Value'] = ["J0LAB11AA002_FB1","A组高加旁路切换阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB11AA002:IO.FB0.Value'] = ["J0LAB11AA002_FB0","A组高加旁路切换阀全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB23AA001:Opened.Value'] = ["J0LAB23AA001_FB1","B2高加水侧出口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB23AA001:Closed.Value'] = ["J0LAB23AA001_FB0","B2高加水侧出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB21AA001:IO.FB1.Value'] = ["J0LAB21AA001_FB1","B2高加水侧进口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB21AA001:IO.FB0.Value'] = ["J0LAB21AA001_FB0","B2高加水侧进口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB21AA002:IO.FB1.Value'] = ["J0LAB21AA002_FB1","B组高加旁路切换阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB21AA002:IO.FB0.Value'] = ["J0LAB21AA002_FB0","B组高加旁路切换阀全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB33AA001:Opened.Value'] = ["J0LAB33AA001_FB1","C2高加水侧出口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.CJ0LAB33AA001:Closed.Value'] = ["J0LAB33AA001_FB0","C2高加水侧出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB31AA001:IO.FB1.Value'] = ["J0LAB31AA001_FB1","C2高加水侧进口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB31AA001:IO.FB0.Value'] = ["J0LAB31AA001_FB0","C2高加水侧进口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB31AA002:IO.FB1.Value'] = ["J0LAB31AA002_FB1","C组高加旁路切换阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB31AA002:IO.FB0.Value'] = ["J0LAB31AA002_FB0","C组高加旁路切换阀全关反馈"]
 #除氧器
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAA14AA502:IO.FB1.Value'] = ["J0LAA14AA502_FB1","1号除氧器运行排空电动门全开反馈"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAA14AA502:IO.FB0.Value'] = ["J0LAA14AA502_FB0","1号除氧器运行排空电动门全关反馈"]
@@ -668,6 +798,7 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK12CY101HH:IO.Value'] = ["J0LAK12CY101HH","1号电动给水泵驱动端轴承X方向振动危险"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK12CY102H:IO.Value'] = ["J0LAK12CY102H","1号电动给水泵驱动端轴承Y方向振动报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK12CY102HH:IO.Value'] = ["J0LAK12CY102HH","1号电动给水泵驱动端轴承Y方向振动危险"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC10CL001:IO.Value'] = ["J0LAC10CL001","1号电动给水泵漏水报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC10DP001:IO.Value'] = ["J0LAC10DP001","1号电动给水泵进水滤网差压高"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB10AP001LP:IO.Value'] = ["J0LAB10AP001LP","1号电动给水泵事故按钮已跳闸"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34:C_J0LAB10AP001.Fail.Value'] = ["J0LAB10AP001ZF","1号电动给水泵电机故障"]
@@ -697,6 +828,7 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK22CY101HH:IO.Value'] = ["J0LAK22CY101HH","2号电动给水泵驱动端轴承X方向振动危险"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK22CY102H:IO.Value'] = ["J0LAK22CY102H","2号电动给水泵驱动端轴承Y方向振动报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAK22CY102HH:IO.Value'] = ["J0LAK22CY102HH","2号电动给水泵驱动端轴承Y方向振动危险"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC20CL001:IO.Value'] = ["J0LAC20CL001","2号电动给水泵漏水报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAC20DP001:IO.Value'] = ["J0LAC20DP001","2号电动给水泵进水滤网差压高"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34.J0LAB20AP001LP:IO.Value'] = ["J0LAB20AP001LP","2号电动给水泵事故按钮已跳闸"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C34.Diagrams.C34:C_J0LAB20AP001.Fail.Value'] = ["J0LAB20AP001ZF","2号电动给水泵电机故障"]
@@ -726,6 +858,7 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK32CY101HH:IO.Value'] = ["J0LAK32CY101HH","3号电动给水泵驱动端轴承X方向振动危险"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK32CY102H:IO.Value'] = ["J0LAK32CY102H","3号电动给水泵驱动端轴承Y方向振动报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK32CY102HH:IO.Value'] = ["J0LAK32CY102HH","3号电动给水泵驱动端轴承Y方向振动危险"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC30CL001:IO.Value'] = ["J0LAC30CL001","3号电动给水泵漏水报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC30DP001:IO.Value'] = ["J0LAC30DP001","3号电动给水泵进水滤网差压高"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAB30AP001LP:IO.Value'] = ["J0LAB30AP001LP","3号电动给水泵事故按钮已跳闸"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35:C_J0LAB30AP001.Fail.Value'] = ["J0LAB30AP001ZF","3号电动给水泵电机故障"]
@@ -755,6 +888,20 @@ Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.A
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK42CY101HH:IO.Value'] = ["J0LAK42CY101HH","4号电动给水泵驱动端轴承X方向振动危险"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK42CY102H:IO.Value'] = ["J0LAK42CY102H","4号电动给水泵驱动端轴承Y方向振动报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAK42CY102HH:IO.Value'] = ["J0LAK42CY102HH","4号电动给水泵驱动端轴承Y方向振动危险"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC40CL001:IO.Value'] = ["J0LAC40CL001","4号电动给水泵漏水报警"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAC40DP001:IO.Value'] = ["J0LAC40DP001","4号电动给水泵进水滤网差压高"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAB40AP001LP:IO.Value'] = ["J0LAB40AP001LP","4号电动给水泵事故按钮已跳闸"]
 Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35:C_J0LAB40AP001.Fail.Value'] = ["J0LAB40AP001ZF","4号电动给水泵电机故障"]
+#汽动给水泵
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAB50AA001:IO.FB1.Value'] = ["J0LAB50AA001_FB1","给水泵汽轮机出口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAB50AA001:IO.FB0.Value'] = ["J0LAB50AA001_FB0","给水泵汽轮机出口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAA51AA001:IO.FB1.Value'] = ["J0LAA51AA001_FB1","给水泵汽轮机进口电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAA51AA001:IO.FB0.Value'] = ["J0LAA51AA001_FB0","给水泵汽轮机进口电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAH50AA001:IO.FB1.Value'] = ["J0LAH50AA001_FB1","给水泵汽轮机再循环电动门全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LAH50AA001:IO.FB0.Value'] = ["J0LAH50AA001_FB0","给水泵汽轮机再循环电动门全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50AA001:IO.FB1.Value'] = ["J0LBR50AA001_FB1","给水泵汽轮机排汽电动阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50AA001:IO.FB0.Value'] = ["J0LBR50AA001_FB0","给水泵汽轮机排汽电动阀全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50AA002:IO.FB1.Value'] = ["J0LBR50AA002_FB1","给水泵汽轮机进汽电动阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR50AA002:IO.FB0.Value'] = ["J0LBR50AA002_FB0","给水泵汽轮机进汽电动阀全关反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR501AA501:Opened.Value'] = ["J0LBR50AA501_FB1","给水泵汽轮机排空电动阀全开反馈"]
+Publiclist[u'[Control Structure].Root.Net#5 Control Network.LuAnPowerPlantNet5.Applications.C35.Diagrams.C35.J0LBR501AA501:Closed.Value'] = ["J0LBR50AA501_FB0","给水泵汽轮机排空电动阀全关反馈"]

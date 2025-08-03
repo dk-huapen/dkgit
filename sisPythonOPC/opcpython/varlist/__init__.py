@@ -5,4 +5,6 @@ from .No3Boilervar import No3Boilerlist
 from .No4Boilervar import No4Boilerlist
 from .Publicvar import Publiclist
 from .Turbinevar import Turbinelist
+from .Auxiliaryvar import Auxiliarylist
+from .LUANvar import LUANlist
 from .FGDvar import FGDlist

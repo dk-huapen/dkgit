@@ -30,13 +30,14 @@ page = 100;
 		</script>
 	<!--SIS画面-->
 		<svg width="1600" height="800" viewBox="0 0 1600 800" fill="gray">
-<line x1="160" y1="2" x2="1400" y2="2" stroke="purple" stroke-width="2"/>
+<line x1="160" y1="2" x2="1450" y2="2" stroke="purple" stroke-width="2"/>
 <text x="410" y="20" font-size="16" fill="black">1号脱硫塔</text>
 <text x="710" y="20" font-size="16" fill="black">2号脱硫塔</text>
 <text x="1010" y="20" font-size="16" fill="black">3号脱硫塔</text>
 <text x="1310" y="20" font-size="16" fill="black">4号脱硫塔</text>
-<line x1="160" y1="30" x2="1400" y2="30" stroke="purple" stroke-width="2"/>
+<line x1="160" y1="30" x2="1450" y2="30" stroke="purple" stroke-width="2"/>
 <line x1="160" y1="2" x2="160" y2="750" stroke="purple" stroke-width="2"/>
+<line x1="1450" y1="2" x2="1450" y2="750" stroke="purple" stroke-width="2"/>
 <text x="250" y="80" font-size="16" fill="black">
 <tspan x="220" y="50">原</tspan>
 <tspan x="220" y="80">烟</tspan>
@@ -46,7 +47,7 @@ page = 100;
 <text x="270" y="50" font-size="18" fill="black">SO2干基值</text>
 <text x="270" y="80" font-size="18" fill="black">SO2折算值</text>
 <text x="270" y="110" font-size="18" fill="black">氧含量</text>
-<line x1="160" y1="120" x2="1400" y2="120" stroke="purple" stroke-width="2"/>
+<line x1="160" y1="120" x2="1450" y2="120" stroke="purple" stroke-width="2"/>
 <line x1="205" y1="120" x2="205" y2="750" stroke="purple" stroke-width="2"/>
 <text x="170" y="80" font-size="16" fill="black">
 <tspan x="170" y="180">净</tspan>
@@ -64,7 +65,7 @@ page = 100;
 <text x="270" y="200" font-size="18" fill="black">平均值</text>
 <text x="270" y="230" font-size="18" fill="black">剩余时间</text>
 <text x="270" y="260" font-size="18" fill="black">理论值</text>
-<line x1="205" y1="270" x2="1400" y2="270" stroke="purple" stroke-width="2"/>
+<line x1="205" y1="270" x2="1450" y2="270" stroke="purple" stroke-width="2"/>
 <text x="215" y="290" font-size="16" fill="black">NOx
 <tspan x="220" y="320">氮</tspan>
 <tspan x="220" y="350">氧</tspan>
@@ -76,7 +77,7 @@ page = 100;
 <text x="270" y="350" font-size="18" fill="black">平均值</text>
 <text x="270" y="380" font-size="18" fill="black">剩余时间</text>
 <text x="270" y="410" font-size="18" fill="black">理论值</text>
-<line x1="205" y1="420" x2="1400" y2="420" stroke="purple" stroke-width="2"/>
+<line x1="205" y1="420" x2="1450" y2="420" stroke="purple" stroke-width="2"/>
 <text x="217" y="440" font-size="16" fill="black">PM
 <tspan x="220" y="470">颗</tspan>
 <tspan x="220" y="500">粒</tspan>
@@ -87,7 +88,7 @@ page = 100;
 <text x="270" y="500" font-size="18" fill="black">平均值</text>
 <text x="270" y="530" font-size="18" fill="black">剩余时间</text>
 <text x="270" y="560" font-size="18" fill="black">理论值</text>
-<line x1="205" y1="570" x2="1400" y2="570" stroke="purple" stroke-width="2"/>
+<line x1="205" y1="570" x2="1450" y2="570" stroke="purple" stroke-width="2"/>
 <text x="215" y="590" font-size="16" fill="black">
 <tspan x="220" y="620">温</tspan>
 <tspan x="220" y="650">压</tspan>
@@ -97,10 +98,10 @@ page = 100;
 <text x="270" y="620" font-size="18" fill="black">压力</text>
 <text x="270" y="650" font-size="18" fill="black">流速</text>
 <text x="270" y="680" font-size="18" fill="black">流量</text>
-<line x1="205" y1="690" x2="1400" y2="690" stroke="purple" stroke-width="2"/>
+<line x1="205" y1="690" x2="1450" y2="690" stroke="purple" stroke-width="2"/>
 <text x="270" y="710" font-size="18" fill="black">湿度</text>
 <text x="270" y="740" font-size="18" fill="black">氧含量</text>
-<line x1="160" y1="750" x2="1400" y2="750" stroke="purple" stroke-width="2"/>
+<line x1="160" y1="750" x2="1450" y2="750" stroke="purple" stroke-width="2"/>
 
 <line x1="390" y1="00" x2="390" y2="750" stroke="purple" stroke-width="2"/>
 			<?php

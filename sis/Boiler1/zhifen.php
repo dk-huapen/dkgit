@@ -82,8 +82,15 @@
 <text x="20" y="557" fill="black" font-size="20" font-family="Arial">密封风压力低</text>
 <!--A磨油站----->
 <rect x="40" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
-<text x="60" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
-<text x="50" y="900" fill="black" font-size="20" font-family="Arial">1#</text>
+<line x1="220" y1="830" x2="220" y2="960" stroke="white" stroke-width="1"/>
+<text x="105" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<text x="45" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="45" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+
+<text x="225" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="225" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+<text x="300" y="855" fill="black" font-size="20" font-family="Arial">稀油站</text>
+<text x="380" y="890" fill="black" font-size="20" font-family="Arial">低速</text>
 
 <!--B层燃烧器----->
 <rect x="510" y="20" width="400" height="80" fill="gray" stroke="balck" stroke-width="2"></rect>
@@ -128,7 +135,15 @@
 <text x="490" y="557" fill="black" font-size="20" font-family="Arial">密封风压力低</text>
 <!--磨油站----->
 <rect x="510" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
-<text x="530" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<line x1="690" y1="830" x2="690" y2="960" stroke="white" stroke-width="1"/>
+<text x="575" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<text x="515" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="515" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+
+<text x="695" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="695" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+<text x="770" y="855" fill="black" font-size="20" font-family="Arial">稀油站</text>
+<text x="850" y="890" fill="black" font-size="20" font-family="Arial">低速</text>
 
 <!--C层燃烧器----->
 <rect x="980" y="20" width="400" height="80" fill="gray" stroke="balck" stroke-width="2"></rect>
@@ -173,7 +188,15 @@
 <text x="960" y="557" fill="black" font-size="20" font-family="Arial">密封风压力低</text>
 <!--磨油站----->
 <rect x="980" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
-<text x="1000" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<line x1="1160" y1="830" x2="1160" y2="960" stroke="white" stroke-width="1"/>
+<text x="1045" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<text x="985" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="985" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+
+<text x="1165" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="1165" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+<text x="1240" y="855" fill="black" font-size="20" font-family="Arial">稀油站</text>
+<text x="1320" y="890" fill="black" font-size="20" font-family="Arial">低速</text>
 
 <!--D层燃烧器----->
 <rect x="1450" y="20" width="400" height="80" fill="gray" stroke="balck" stroke-width="2"></rect>
@@ -217,8 +240,16 @@
 <line x1="1460" y1="328" x2="1460" y2="520" stroke="aqua" stroke-width="1"/>
 <text x="1430" y="557" fill="black" font-size="20" font-family="Arial">密封风压力低</text>
 <!--磨油站----->
-<rect x="980" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
-<text x="1000" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<rect x="1450" y="830" width="400" height="130" fill="gray" stroke="balck" stroke-width="2"></rect>
+<line x1="1630" y1="830" x2="1630" y2="960" stroke="white" stroke-width="1"/>
+<text x="1515" y="855" fill="black" font-size="20" font-family="Arial">液压油</text>
+<text x="1455" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="1455" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+
+<text x="1640" y="895" fill="black" font-size="20" font-family="Arial">1#</text>
+<text x="1640" y="940" fill="black" font-size="20" font-family="Arial">2#</text>
+<text x="1710" y="855" fill="black" font-size="20" font-family="Arial">稀油站</text>
+<text x="1790" y="890" fill="black" font-size="20" font-family="Arial">低速</text>
 
 
 

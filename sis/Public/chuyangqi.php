@@ -49,8 +49,14 @@
 
 <!--1号除氧器-->
 <path d="M 110 360 A 50 50 0 0 1 110 260 L400 260 A50 50 0 0 1 400 360z" stroke="black" stroke="#000" fill="white" />
+<line x1="160" y1="360" x2="160" y2="425" stroke="green" stroke-width="2"/>
+<line x1="160" y1="415" x2="240" y2="415" stroke="green" stroke-width="2"/>
+<line x1="240" y1="360" x2="240" y2="415" stroke="green" stroke-width="2"/>
+<line x1="240" y1="365" x2="275" y2="365" stroke="green" stroke-width="2"/>
+<line x1="275" y1="365" x2="275" y2="425" stroke="green" stroke-width="2"/>
+<line x1="370" y1="360" x2="370" y2="435" stroke="green" stroke-width="2"/>
 <line x1="140" y1="435" x2="140" y2="770" stroke="green" stroke-width="2"/>
-<polygon points='180,405,220,425,220,405,180,425' fill='white' stroke='black' stroke-width='2' ></polygon>
+<polygon points='185,405,225,425,225,405,185,425' fill='white' stroke='black' stroke-width='2' ></polygon>
 
 <circle cx='140' cy='540' r='10' fill='white' stroke='black' stroke-width='2'></circle>
 <line x1="50" y1="210" x2="50" y2="660" stroke="green" stroke-width="2"/>
@@ -60,18 +66,21 @@
 
 <!--2号除氧器-->
 <path d="M 520 360 A 50 50 0 0 1 520 260 L790 260 A50 50 0 0 1 790 360z" stroke="black" stroke="#000" fill="white" />
+<line x1="780" y1="360" x2="780" y2="435" stroke="green" stroke-width="2"/>
 <line x1="550" y1="435" x2="550" y2="770" stroke="green" stroke-width="2"/>
 <line x1="460" y1="210" x2="460" y2="660" stroke="green" stroke-width="2"/>
 <line x1="460" y1="660" x2="550" y2="660" stroke="green" stroke-width="2"/>
 
 <!--3号除氧器-->
 <path d="M 910 360 A 50 50 0 0 1 910 260 L1200 260 A50 50 0 0 1 1200 360z" stroke="black" stroke="#000" fill="white" />
+<line x1="1190" y1="360" x2="1190" y2="435" stroke="green" stroke-width="2"/>
 <line x1="940" y1="435" x2="940" y2="770" stroke="green" stroke-width="2"/>
 <line x1="850" y1="210" x2="850" y2="660" stroke="green" stroke-width="2"/>
 <line x1="850" y1="660" x2="940" y2="660" stroke="green" stroke-width="2"/>
 
 <!--4号除氧器-->
 <path d="M 1320 360 A 50 50 0 0 1 1320 260 L1620 260 A50 50 0 0 1 1620 360z" stroke="black" stroke="#000" fill="white" />
+<line x1="1600" y1="360" x2="1600" y2="435" stroke="green" stroke-width="2"/>
 <line x1="1350" y1="435" x2="1350" y2="770" stroke="green" stroke-width="2"/>
 <line x1="1260" y1="210" x2="1260" y2="660" stroke="green" stroke-width="2"/>
 <line x1="1260" y1="660" x2="1350" y2="660" stroke="green" stroke-width="2"/>
