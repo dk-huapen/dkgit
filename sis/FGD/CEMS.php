@@ -6,10 +6,10 @@
 		<?php include("top.php")?>
 		<center><h1>脱硫烟气CEMS数据</h1></center>
 		<script>
-page = 100;
+page = 400;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=100 or page1=100";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=400 or page1=400";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 

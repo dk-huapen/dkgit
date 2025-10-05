@@ -5,9 +5,13 @@
 ?>
 <div class="btn-group">
   <button class="button" onclick='location.href=("../main.php")'>主画面</button>
-  <button class="button" onclick='location.href=("qishuiquyang.php")'>汽水取样</button>
-  <button class="button" onclick='location.href=("chuzha12.php")'>1/2除渣</button>
+  <button class="button" onclick='location.href=("qishui.php")'>汽水</button>
+  <button class="button" onclick='location.href=("fengyan.php")'>风烟</button>
   <button class="button" onclick='location.href=("zhifen.php")'>制粉</button>
+  <button class="button" onclick='location.href=("AMill.php")'>A磨</button>
+  <button class="button" onclick='location.href=("BMill.php")'>B磨</button>
+  <button class="button" onclick='location.href=("CMill.php")'>C磨</button>
+  <button class="button" onclick='location.href=("DMill.php")'>D磨</button>
   <button class="button">备用</button>
   <button class="button">备用</button>
   <button class="button">备用</button>

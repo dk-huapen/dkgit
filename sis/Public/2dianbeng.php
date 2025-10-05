@@ -1,16 +1,17 @@
 <html>
 	<head>
-    		<title>1号炉汽水系统</title>
+    		<title>2号电动给水泵系统</title>
 		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>汽水系统</h1></center>
+		<center><h1>2号电动给水泵系统</h1></center>
 		<script>
-			var page = 1;
+			var page = 209;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=1 or page1=1";
+			#$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=203 or page1=203";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=209 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=209";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -35,10 +36,17 @@
 				$locateX = 0;
 				$locateY = 0;
 			?>
+
 			<?php
-				//包含汽水系统模板
-				include("../TemplateSvg/qishuiTemplate.php");
+				//包含电动给水泵模板
+				include("../TemplateSvg/FeedWaterPumpTemplate.php");
 			?>
+			<!--包含具体名称的元素-->
+
+
+
+
+
 
 
 

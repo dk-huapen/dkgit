@@ -5,9 +5,10 @@
 ?>
 <div class="btn-group">
   <button class="button" onclick='location.href=("../main.php")'>主画面</button>
-  <button class="button" onclick='location.href=("qishuiquyang.php")'>汽水取样</button>
-  <button class="button" onclick='location.href=("chuzha12.php")'>1/2除渣</button>
-  <button class="button" onclick='location.href=("zhifen.php")'>制粉</button>
+  <button class="button" onclick='location.href=("steam98.php")'>高压蒸汽</button>
+  <button class="button" onclick='location.href=("steam50.php")'>次高压蒸汽</button>
+  <button class="button" onclick='location.href=("steam28.php")'>中压蒸汽</button>
+  <button class="button" onclick='location.href=("chuyangqi.php")'>除氧器</button>
   <button class="button">备用</button>
   <button class="button">备用</button>
   <button class="button">备用</button>

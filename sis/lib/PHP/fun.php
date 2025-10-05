@@ -24,6 +24,9 @@
 				if($toward == 0){//正方形矩形
 					echo "<rect id = ".$kks." x=".($locateX+$x-10)." y=".($locateY+$y-10)." width='20' height='20' rx='5' ry='5' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></rect>";
 				}
+				if($toward == 1){//正方形矩形
+					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='10' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
+				}
 				if($toward == 10){//单反馈M电机
 					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='20' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
 					echo "<text x=".($locateX+$x-12)." y=".($locateY+$y+9)." fill='black' font-size='30' font-family='Arial'>M</text>";

@@ -10,7 +10,7 @@
 			var page = 2;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=2 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=2";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=2 or page1=2";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -72,30 +72,19 @@
 <!---炉膛-空预器---->
 <!---左侧--->
 <line x1="230" y1="30" x2="1070" y2="30" stroke="aqua" stroke-width="2"/>
-<line x1="300" y1="205" x2="1800" y2="205" stroke="aqua" stroke-width="2"/>
+<line x1="300" y1="205" x2="1710" y2="205" stroke="aqua" stroke-width="2"/>
 <line x1="230" y1="145" x2="1070" y2="145" stroke="aqua" stroke-width="2"/>
 <text x="30" y="150" fill="black" font-size="20" font-family="Arial">磨煤机热一次风母管</text>
-
-<text x="1590" y="125" fill="black" font-size="18" font-family="Arial">FB</text>
-<text x="1590" y="145" fill="black" font-size="18" font-family="Arial">SP</text>
-<text x="1520" y="285" fill="black" font-size="20" font-family="Arial">送风机A</text>
-<text x="1520" y="580" fill="black" font-size="20" font-family="Arial">送风机B</text>
 <!---右侧--->
-<line x1="300" y1="635" x2="1800" y2="635" stroke="aqua" stroke-width="2"/>
+<line x1="300" y1="635" x2="1710" y2="635" stroke="aqua" stroke-width="2"/>
 <line x1="230" y1="705" x2="1070" y2="705" stroke="aqua" stroke-width="2"/>
 <text x="30" y="710" fill="black" font-size="20" font-family="Arial">磨煤机热一次风母管</text>
 <line x1="230" y1="830" x2="1070" y2="830" stroke="aqua" stroke-width="2"/>
 <line x1="1070" y1="30" x2="1070" y2="830" stroke="aqua" stroke-width="2"/>
 <line x1="1010" y1="205" x2="1010" y2="635" stroke="aqua" stroke-width="2"/>
-
-<text x="1590" y="715" fill="black" font-size="18" font-family="Arial">FB</text>
-<text x="1590" y="735" fill="black" font-size="18" font-family="Arial">SP</text>
 <!--一次风机----->
-<line x1="1070" y1="80" x2="1600" y2="80" stroke="aqua" stroke-width="2"/>
-<text x="1250" y="155" fill="black" font-size="20" font-family="Arial">一次风机A</text>
-<text x="1250" y="855" fill="black" font-size="20" font-family="Arial">一次风机B</text>
-<line x1="1070" y1="780" x2="1600" y2="780" stroke="aqua" stroke-width="2"/>
-<text x="1630" y="20" fill="black" font-size="18" font-family="Arial">风机轴承冷却水参数</text>
+<line x1="1070" y1="100" x2="1600" y2="100" stroke="aqua" stroke-width="2"/>
+<line x1="1070" y1="760" x2="1600" y2="760" stroke="aqua" stroke-width="2"/>
 <!--空预器----->
 <rect x="750" y="90" width="50" height="250" fill="silver" stroke="balck" stroke-width="2"></rect>
 <line x1="750" y1="90" x2="800" y2="340" stroke="black" stroke-width="1"/>
@@ -115,19 +104,13 @@
 <text x="768" y="675" fill="black" font-size="20" font-family="Arial">B</text>
 <!--除尘----->
 <rect x="990" y="380" width="100" height="80" fill="gray" stroke="balck" stroke-width="2"></rect>
-<text x="1000" y="425" fill="black" font-size="20" font-family="Arial">布袋除尘</text>
+<text x="990" y="425" fill="black" font-size="20" font-family="Arial">布袋除尘</text>
 <!--引风机----->
 <line x1="1120" y1="300" x2="1120" y2="540" stroke="black" stroke-width="2"/>
 <line x1="1120" y1="540" x2="1520" y2="540" stroke="black" stroke-width="2"/>
 <line x1="1120" y1="300" x2="1520" y2="300" stroke="black" stroke-width="2"/>
 <line x1="1520" y1="300" x2="1520" y2="540" stroke="black" stroke-width="2"/>
 <line x1="1520" y1="420" x2="1770" y2="420" stroke="black" stroke-width="2"/>
-<text x="1170" y="355" fill="black" font-size="18" font-family="Arial">FB</text>
-<text x="1170" y="375" fill="black" font-size="18" font-family="Arial">SP</text>
-
-<text x="1170" y="475" fill="black" font-size="18" font-family="Arial">FB</text>
-<text x="1170" y="495" fill="black" font-size="18" font-family="Arial">SP</text>
-<text x="1330" y="410" fill="black" font-size="18" font-family="Arial">引风机轴承冷却水参数</text>
 <!--脱硫----->
 <rect x="1580" y="360" width="30" height="120" fill="gray" stroke="balck" stroke-width="2"></rect>
 <text x="1585" y="400" fill="black" font-size="20" font-family="Arial">脱</text>

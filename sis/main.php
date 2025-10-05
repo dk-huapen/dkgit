@@ -70,16 +70,16 @@
 <button class="button button1" onclick='location.href=("Boiler1/zhifen.php")'>制粉</button>
 <button class="button button1">灰色</button>
 <br>
-<button class="button button1" onclick='location.href=("test.php")'>测试</button>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/AMill.php")'>A磨</button>
+<button class="button button1" onclick='location.href=("Boiler1/BMill.php")'>B磨</button>
 <br>
-<button class="button button1">黑色</button>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/CMill.php")'>C磨</button>
+<button class="button button1" onclick='location.href=("Boiler1/DMill.php")'>D磨</button>
 <br>
-<button class="button button1">黑色</button>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/FDF.php")'>送风机</button>
+<button class="button button1" onclick='location.href=("Boiler1/IDF.php")'>引风机</button>
 <br>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/PDF.php")'>一次风机</button>
 <button class="button button1">黑色</button>
 <br>
 <button class="button button1">黑色</button>
@@ -93,6 +93,8 @@
 </div>
   <div class="box">
 <p>2号锅炉</p>
+<button class="button button1" onclick='location.href=("Boiler2/qishui.php")'>汽水</button>
+<button class="button button1" onclick='location.href=("Boiler2/fengyan.php")'>风烟</button>
 </div>
   <div class="box">
 <p>3号锅炉</p>
@@ -102,11 +104,35 @@
 </div>
   <div class="box1">
 <p>辅系统</p>
+<button class="button button1" onclick='location.href=("Auxiliary/qishuiquyang.php")'>汽水取样</button>
 <button class="button button1" onclick='location.href=("Auxiliary/chuzha12.php")'>1-2除渣</button>
+<button class="button button1" onclick='location.href=("System/SystemStatus.php")'>系统状态</button>
 </div>
   <div class="box1">
 <p>公用</p>
+<button class="button button1" onclick='location.href=("Public/gaoyazhengqi.php")'>高压蒸汽</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/cigaoyazhengqi.php")'>次高压蒸汽</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/zhongyazhengqi.php")'>中压蒸汽</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/diyazhengqi.php")'>低压蒸汽</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/didiyazhengqi.php")'>低低压蒸汽</button>
+<br>
 <button class="button button1" onclick='location.href=("Public/chuyangqi.php")'>除氧器</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/gaojia.php")'>高加</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/1dianbeng.php")'>1号电泵</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/2dianbeng.php")'>2号电泵</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/3dianbeng.php")'>3号电泵</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/4dianbeng.php")'>4号电泵</button>
+<br>
+<button class="button button1" onclick='location.href=("Public/changquliuliangcanshu.php")'>厂区流量参数</button>
 </div>
   <div class="box1">
 <p>汽轮机</p>
@@ -137,6 +163,7 @@
 
 
 		<div class="footer">
+
 <?php
 	include("../lib/phpqrcode/qrlib.php");
 echo "扫一扫下方二维码登录SIS系统";
