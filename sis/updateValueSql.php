@@ -3,7 +3,7 @@ $page = $_GET['q'];
 
 	include('conn.php');
 //$sql="SELECT kks,value,updatetime FROM boler";
-$sql="SELECT kks,value,updatetime FROM sis where page =".$page." or page1 =".$page;
+$sql="SELECT kks,value,updatetime FROM sis where page =".$page." or page1 =".$page." or page2 =".$page;
 //$sql="SELECT kks,value,updatetime FROM boler where page =".$page;
 
 $result = mysqli_query($con,$sql);

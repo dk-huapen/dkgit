@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>汽水系统</h1></center>
+		<center><h1>2号炉汽水系统</h1></center>
 		<script>
 			var page = 51;
 			var test =<?php

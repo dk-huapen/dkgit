@@ -1,16 +1,16 @@
 <html>
 	<head>
-    		<title>1号炉汽水系统</title>
+    		<title>4号炉汽水系统</title>
 		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>汽水系统</h1></center>
+		<center><h1>4号炉汽水系统</h1></center>
 		<script>
-			var page = 1;
+			var page = 151;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=1 or page1=1";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=151 or page1=151";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -39,6 +39,12 @@
 				//包含汽水系统模板
 				include("../TemplateSvg/qishuiTemplate.php");
 			?>
+			<!--包含具体名称的元素-->
+			<polygon points='700,640,700,660,740,640,740,660' fill='white' stroke='black' stroke-width='2'></polygon>
+			<polygon points='700,740,700,760,740,740,740,760' fill='white' stroke='black' stroke-width='2'></polygon>
+
+			<polygon points='1130,640,1130,660,1170,640,1170,660' fill='white' stroke='black' stroke-width='2'></polygon>
+			<polygon points='1130,740,1130,760,1170,740,1170,760' fill='white' stroke='black' stroke-width='2'></polygon>
 
 
 

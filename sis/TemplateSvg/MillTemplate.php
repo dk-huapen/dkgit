@@ -158,8 +158,8 @@
 
 <text x="1250" y="150" fill="black" font-size="20" font-family="Arial">疏松机电机</text>
 <text x="1250" y="175" fill="black" font-size="20" font-family="Arial">电机故障</text>
-<text x="1250" y="195" fill="black" font-size="20" font-family="Arial">电源反馈</text>
-<text x="1250" y="215" fill="black" font-size="20" font-family="Arial">远方反馈</text>
+<text x="1250" y="200" fill="black" font-size="20" font-family="Arial">电源故障</text>
+<text x="1250" y="225" fill="black" font-size="20" font-family="Arial">远方反馈</text>
 
 <text x="1310" y="292" fill="black" font-size="20" font-family="Arial">密封风</text>
 <line x1="1230" y1="270" x2="1380" y2="270" stroke="aqua" stroke-width="3"/>
@@ -167,7 +167,7 @@
 
 <text x="1250" y="350" fill="black" font-size="20" font-family="Arial">清扫电机</text>
 <text x="1250" y="375" fill="black" font-size="20" font-family="Arial">故障反馈</text>
-<text x="1250" y="395" fill="black" font-size="20" font-family="Arial">运行反馈</text>
+<text x="1250" y="400" fill="black" font-size="20" font-family="Arial">运行反馈</text>
 
 <!--燃烧器----->
 <line x1="1130" y1="500" x2="1130" y2="520" stroke="white" stroke-width="4"/>

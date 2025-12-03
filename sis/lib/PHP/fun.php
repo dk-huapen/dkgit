@@ -24,12 +24,31 @@
 				if($toward == 0){//正方形矩形
 					echo "<rect id = ".$kks." x=".($locateX+$x-10)." y=".($locateY+$y-10)." width='20' height='20' rx='5' ry='5' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></rect>";
 				}
-				if($toward == 1){//正方形矩形
+				if($toward == 1){//圆形
 					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='10' fill='gray' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
 				}
-				if($toward == 10){//单反馈M电机
+				if($toward == 10){//单反馈M大电机
 					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='20' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
 					echo "<text x=".($locateX+$x-12)." y=".($locateY+$y+9)." fill='black' font-size='30' font-family='Arial'>M</text>";
+				}
+				if($toward == 11){//单反馈M小电机
+					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='15' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
+					echo "<text x=".($locateX+$x-8)." y=".($locateY+$y+6)." fill='black' font-size='18' font-family='Arial'>M</text>";
+				}
+				if($toward == 20){//单反馈泵
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<circle id = ".$kks." cx=".($locateX+$x)." cy=".($locateY+$y)." r='20' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></circle>";
+					echo "<polygon points='".($locateX+$x-5).",".($locateY+$y).",".($locateX+$x-10).",".($locateY+$y).",".($locateX+$x).",".($locateY+$y-14).",".($locateX+$x+10).",".($locateY+$y).",".($locateX+$x+5).",".($locateY+$y).",".($locateX+$x+5).",".($locateY+$y+12).",".($locateX+$x-5).",".($locateY+$y+12)."' fill='white' fill-opacity='0' stroke='black' stroke-width='2'></polygon>";
+					echo "</g>";
+				}
+				if($toward == 30){//单反馈气动开关门矩形
+					echo "<g transform='rotate(".$angle." ".($locateX+$x).",".($locateY+$y).")'>";
+					echo "<rect x=".($locateX+$x-7)." y=".($locateY+$y-24)." width='14' height='14' fill='white' stroke='black' stroke-width='1'></rect>";
+
+					//echo "<text x=".($locateX+$x-6)." y=".($locateY+$y-14)." fill='black' font-size='15' font-family='Arial'>M</text>";
+					echo "<line x1=".($locateX+$x)." y1=".($locateY+$y-10)." x2=".($locateX+$x)." y2=".($locateY+$y)." stroke='black' stroke-width='2'/>";
+				echo "<polygon id = ".$kks." points='".($locateX+$x-20).",".($locateY+$y-10).",".($locateX+$x-20).",".($locateY+$y+10).",".($locateX+$x+20).",".($locateY+$y-10).",".($locateX+$x+20).",".($locateY+$y+10)."' fill='white' stroke='black' stroke-width='2' onclick=click(this.id,".$index.") onmouseover=mOver(this.id,'".$name."') onmouseout=mOut() onmouseup=mUp(".$index.",this.id)></polygon>";
+					echo "</g>";
 				}
 				}
 				function dkValue($kks){//开关双反馈开关量

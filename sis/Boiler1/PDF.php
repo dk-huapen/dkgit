@@ -41,16 +41,16 @@
 				include("../TemplateSvg/SixFanTemplate.php");
 			?>
 			<!--包含具体名称的元素-->
-<text x="210" y="440" fill="black" font-size="25" font-family="Arial">送风机A</text>
-<text x="1160" y="440" fill="black" font-size="25" font-family="Arial">送风机B</text>
-<text x="330" y="80" fill="black" font-size="20" font-family="Arial">送风机急停</text>
-<text x="330" y="110" fill="black" font-size="20" font-family="Arial">送风机故障</text>
-<text x="330" y="140" fill="black" font-size="20" font-family="Arial">送风机就地</text>
-<text x="280" y="170" fill="black" font-size="20" font-family="Arial">送风机停止(SOE)</text>
-<text x="1280" y="80" fill="black" font-size="20" font-family="Arial">送风机急停</text>
-<text x="1280" y="110" fill="black" font-size="20" font-family="Arial">送风机故障</text>
-<text x="1280" y="140" fill="black" font-size="20" font-family="Arial">送风机就地</text>
-<text x="1230" y="170" fill="black" font-size="20" font-family="Arial">送风机停止(SOE)</text>
+<text x="190" y="440" fill="black" font-size="25" font-family="Arial">一次风机A</text>
+<text x="1140" y="440" fill="black" font-size="25" font-family="Arial">一次风机B</text>
+<text x="310" y="80" fill="black" font-size="20" font-family="Arial">一次风机急停</text>
+<text x="310" y="110" fill="black" font-size="20" font-family="Arial">一次风机故障</text>
+<text x="310" y="140" fill="black" font-size="20" font-family="Arial">一次风机就地</text>
+<text x="260" y="170" fill="black" font-size="20" font-family="Arial">一次风机停止(SOE)</text>
+<text x="1260" y="80" fill="black" font-size="20" font-family="Arial">一次风机急停</text>
+<text x="1260" y="110" fill="black" font-size="20" font-family="Arial">一次风机故障</text>
+<text x="1260" y="140" fill="black" font-size="20" font-family="Arial">一次风机就地</text>
+<text x="1210" y="170" fill="black" font-size="20" font-family="Arial">一次风机停止(SOE)</text>
 
 <line x1="30" y1="680" x2="930" y2="680" stroke="black" stroke-width="2"/>
 

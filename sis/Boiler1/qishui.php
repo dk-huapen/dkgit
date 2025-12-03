@@ -5,12 +5,12 @@
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>汽水系统</h1></center>
+		<center><h1>1号炉汽水系统</h1></center>
 		<script>
 			var page = 1;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=1 or page1=1";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=1 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=1";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -39,6 +39,7 @@
 				//包含汽水系统模板
 				include("../TemplateSvg/qishuiTemplate.php");
 			?>
+			<!--包含具体名称的元素-->
 
 
 

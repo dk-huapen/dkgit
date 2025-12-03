@@ -65,10 +65,10 @@
   <div class="box">
 <p>1号锅炉</p>
 <button class="button button1" onclick='location.href=("Boiler1/qishui.php")'>汽水</button>
-<button class="button button1" onclick='location.href=("Boiler1/fengyan.php")'>风烟</button>
+<button class="button button1" onclick='location.href=("Boiler1/biwen.php")'>壁温</button>
 <br>
 <button class="button button1" onclick='location.href=("Boiler1/zhifen.php")'>制粉</button>
-<button class="button button1">灰色</button>
+<button class="button button1" onclick='location.href=("Boiler1/fengyan.php")'>风烟</button>
 <br>
 <button class="button button1" onclick='location.href=("Boiler1/AMill.php")'>A磨</button>
 <button class="button button1" onclick='location.href=("Boiler1/BMill.php")'>B磨</button>
@@ -80,10 +80,10 @@
 <button class="button button1" onclick='location.href=("Boiler1/IDF.php")'>引风机</button>
 <br>
 <button class="button button1" onclick='location.href=("Boiler1/PDF.php")'>一次风机</button>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/APH.php")'>空预器</button>
 <br>
-<button class="button button1">黑色</button>
-<button class="button button1">黑色</button>
+<button class="button button1" onclick='location.href=("Boiler1/SAF.php")'>密封风</button>
+<button class="button button1" onclick='location.href=("Boiler1/SAD.php")'>二次风门</button>
 <br>
 <button class="button button1">黑色</button>
 <button class="button button1">黑色</button>
@@ -94,13 +94,72 @@
   <div class="box">
 <p>2号锅炉</p>
 <button class="button button1" onclick='location.href=("Boiler2/qishui.php")'>汽水</button>
+<button class="button button1" onclick='location.href=("Boiler2/biwen.php")'>壁温</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/zhifen.php")'>制粉</button>
 <button class="button button1" onclick='location.href=("Boiler2/fengyan.php")'>风烟</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/AMill.php")'>A磨</button>
+<button class="button button1" onclick='location.href=("Boiler2/BMill.php")'>B磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/CMill.php")'>C磨</button>
+<button class="button button1" onclick='location.href=("Boiler2/DMill.php")'>D磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/FDF.php")'>送风机</button>
+<button class="button button1" onclick='location.href=("Boiler2/IDF.php")'>引风机</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/PDF.php")'>一次风机</button>
+<button class="button button1" onclick='location.href=("Boiler2/APH.php")'>空预器</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler2/SAF.php")'>密封风</button>
+<button class="button button1" onclick='location.href=("Boiler2/SAD.php")'>二次风门</button>
+<br>
 </div>
   <div class="box">
 <p>3号锅炉</p>
+<button class="button button1" onclick='location.href=("Boiler3/qishui.php")'>汽水</button>
+<button class="button button1" onclick='location.href=("Boiler3/biwen.php")'>壁温</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/zhifen.php")'>制粉</button>
+<button class="button button1" onclick='location.href=("Boiler3/fengyan.php")'>风烟</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/AMill.php")'>A磨</button>
+<button class="button button1" onclick='location.href=("Boiler3/BMill.php")'>B磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/CMill.php")'>C磨</button>
+<button class="button button1" onclick='location.href=("Boiler3/DMill.php")'>D磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/FDF.php")'>送风机</button>
+<button class="button button1" onclick='location.href=("Boiler3/IDF.php")'>引风机</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/PDF.php")'>一次风机</button>
+<button class="button button1" onclick='location.href=("Boiler3/APH.php")'>空预器</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler3/SAF.php")'>密封风</button>
+<button class="button button1" onclick='location.href=("Boiler3/SAD.php")'>二次风门</button>
 </div>
   <div class="box">
 <p>4号锅炉</p>
+<button class="button button1" onclick='location.href=("Boiler4/qishui.php")'>汽水</button>
+<button class="button button1" onclick='location.href=("Boiler4/biwen.php")'>壁温</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/zhifen.php")'>制粉</button>
+<button class="button button1" onclick='location.href=("Boiler4/fengyan.php")'>风烟</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/AMill.php")'>A磨</button>
+<button class="button button1" onclick='location.href=("Boiler4/BMill.php")'>B磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/CMill.php")'>C磨</button>
+<button class="button button1" onclick='location.href=("Boiler4/DMill.php")'>D磨</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/FDF.php")'>送风机</button>
+<button class="button button1" onclick='location.href=("Boiler4/IDF.php")'>引风机</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/PDF.php")'>一次风机</button>
+<button class="button button1" onclick='location.href=("Boiler4/APH.php")'>空预器</button>
+<br>
+<button class="button button1" onclick='location.href=("Boiler4/SAF.php")'>密封风</button>
+<button class="button button1" onclick='location.href=("Boiler4/SAD.php")'>二次风门</button>
 </div>
   <div class="box1">
 <p>辅系统</p>
@@ -136,11 +195,11 @@
 </div>
   <div class="box1">
 <p>汽轮机</p>
-<button class="button button1" onclick='location.href=("Turbine1/benti.php")'>1号汽轮机</button>
-<button class="button button1" onclick='location.href=("Turbine2/benti.php")'>2号汽轮机</button>
-<button class="button button1" onclick='location.href=("Turbine3/benti.php")'>3号汽轮机</button>
-<button class="button button1" onclick='location.href=("Turbine4/benti.php")'>4号汽轮机</button>
-<button class="button button1" onclick='location.href=("Turbine5/benti.php")'>5号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine1/reli.php")'>1号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine2/reli.php")'>2号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine3/reli.php")'>3号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine4/reli.php")'>4号汽轮机</button>
+<button class="button button1" onclick='location.href=("Turbine5/reli.php")'>5号汽轮机</button>
 </div>
   <div class="box1">
 <p>脱硫</p>

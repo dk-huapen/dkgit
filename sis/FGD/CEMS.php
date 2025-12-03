@@ -9,7 +9,7 @@
 page = 400;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,indexID,X,Y FROM sis where page=400 or page1=400";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=400 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=400 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle2,indexID,X2,Y2 FROM sis where page2=400";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 
@@ -29,15 +29,15 @@ page = 400;
 			?>;
 		</script>
 	<!--SIS画面-->
-		<svg width="1600" height="800" viewBox="0 0 1600 800" fill="gray">
+		<svg width="1860" height="1000" viewBox="0 0 1680 1000" fill="gray">
 <line x1="160" y1="2" x2="1450" y2="2" stroke="purple" stroke-width="2"/>
 <text x="410" y="20" font-size="16" fill="black">1号脱硫塔</text>
 <text x="710" y="20" font-size="16" fill="black">2号脱硫塔</text>
 <text x="1010" y="20" font-size="16" fill="black">3号脱硫塔</text>
 <text x="1310" y="20" font-size="16" fill="black">4号脱硫塔</text>
 <line x1="160" y1="30" x2="1450" y2="30" stroke="purple" stroke-width="2"/>
-<line x1="160" y1="2" x2="160" y2="750" stroke="purple" stroke-width="2"/>
-<line x1="1450" y1="2" x2="1450" y2="750" stroke="purple" stroke-width="2"/>
+<line x1="160" y1="2" x2="160" y2="930" stroke="purple" stroke-width="2"/>
+<line x1="1450" y1="2" x2="1450" y2="930" stroke="purple" stroke-width="2"/>
 <text x="250" y="80" font-size="16" fill="black">
 <tspan x="220" y="50">原</tspan>
 <tspan x="220" y="80">烟</tspan>
@@ -48,7 +48,7 @@ page = 400;
 <text x="270" y="80" font-size="18" fill="black">SO2折算值</text>
 <text x="270" y="110" font-size="18" fill="black">氧含量</text>
 <line x1="160" y1="120" x2="1450" y2="120" stroke="purple" stroke-width="2"/>
-<line x1="205" y1="120" x2="205" y2="750" stroke="purple" stroke-width="2"/>
+<line x1="205" y1="120" x2="205" y2="930" stroke="purple" stroke-width="2"/>
 <text x="170" y="80" font-size="16" fill="black">
 <tspan x="170" y="180">净</tspan>
 <tspan x="170" y="380">烟</tspan>
@@ -102,8 +102,15 @@ page = 400;
 <text x="270" y="710" font-size="18" fill="black">湿度</text>
 <text x="270" y="740" font-size="18" fill="black">氧含量</text>
 <line x1="160" y1="750" x2="1450" y2="750" stroke="purple" stroke-width="2"/>
+<text x="260" y="770" font-size="18" fill="black">锅炉负荷</text>
+<text x="235" y="800" font-size="18" fill="black">给煤机A给煤量</text>
+<text x="235" y="830" font-size="18" fill="black">给煤机B给煤量</text>
+<text x="235" y="860" font-size="18" fill="black">给煤机C给煤量</text>
+<text x="235" y="890" font-size="18" fill="black">给煤机D给煤量</text>
+<text x="260" y="920" font-size="18" fill="black">燃气流量</text>
+<line x1="160" y1="930" x2="1450" y2="930" stroke="purple" stroke-width="2"/>
 
-<line x1="390" y1="00" x2="390" y2="750" stroke="purple" stroke-width="2"/>
+<line x1="390" y1="00" x2="390" y2="930" stroke="purple" stroke-width="2"/>
 			<?php
 				$locateX = 0;
 				$locateY = 40;

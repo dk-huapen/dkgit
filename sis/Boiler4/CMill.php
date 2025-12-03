@@ -1,16 +1,16 @@
 <html>
 	<head>
-    		<title>1号炉C磨煤机</title>
+    		<title>4号炉C磨煤机</title>
 		<?php include("../header.php")?>
 	</head>
 	<body>
 		<?php include("top.php")?>
-		<center><h1>1号炉制粉系统C</h1></center>
+		<center><h1>4号炉制粉系统C</h1></center>
 		<script>
-			var page = 6;
+			var page = 156;
 			var test =<?php
 			include('../conn.php');
-			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=6 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=6";
+			$sql="SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle,indexID,X,Y FROM sis where page=156 union SELECT kks,name,value,unit,updatetime,HH,H,HHH,L,LL,LLL,flag,angle1,indexID,X1,Y1 FROM sis where page1=156";
 			$result = mysqli_query($con,$sql);
 			$pointArray = array();
 

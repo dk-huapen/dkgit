@@ -1,7 +1,7 @@
 <?php
 	$page = $_GET['q'];
 	include('conn.php');
-	$sql="SELECT kks FROM sis where page =".$page." or page1 =".$page;
+	$sql="SELECT kks FROM sis where page =".$page." or page1 =".$page." or page2 =".$page;
 	$result = mysqli_query($con,$sql);
 	$outp = array();
 	#$outp = mysqli_fetch_all($result,MYSQLI_NUM);

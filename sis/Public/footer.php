@@ -16,8 +16,9 @@
   <button class="button" onclick='location.href=("2dianbeng.php")'>2号电泵</button>
   <button class="button" onclick='location.href=("3dianbeng.php")'>3号电泵</button>
   <button class="button" onclick='location.href=("4dianbeng.php")'>4号电泵</button>
-  <button class="button">备用</button>
-  <button class="button">备用</button>
+  <button class="button" onclick='location.href=("4dianbeng.php")'>汽动给水泵</button>
+  <button class="button" onclick='location.href=("4dianbeng.php")'>疏放水</button>
+  <button class="button" onclick='location.href=("4dianbeng.php")'>厂区流量参数</button>
   <button class="button">备用</button>
   <button class="button">备用</button>
   <button class="button">备用</button>

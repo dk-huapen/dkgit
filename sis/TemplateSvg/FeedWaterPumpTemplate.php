@@ -144,7 +144,7 @@
 <line x1="1500" y1="540" x2="1500" y2="900" stroke="black" stroke-width="2"/>
 <line x1="1850" y1="540" x2="1850" y2="900" stroke="black" stroke-width="2"/>
 <line x1="1400" y1="540" x2="1850" y2="540" stroke="black" stroke-width="2"/>
-<text x="1530" y="562" fill="black" font-size="20" font-family="Arial">液偶回油温度高高</text>
+<text x="1530" y="562" fill="black" font-size="20" font-family="Arial">液偶回油温度高</text>
 <line x1="1400" y1="570" x2="1850" y2="570" stroke="black" stroke-width="2"/>
 <text x="1530" y="592" fill="black" font-size="20" font-family="Arial">液偶回油温度高高</text>
 <line x1="1400" y1="600" x2="1850" y2="600" stroke="black" stroke-width="2"/>
