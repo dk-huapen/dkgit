@@ -65,6 +65,7 @@
 <rect x="1430" y="230" width="220" height="140" fill="gray" stroke="black" stroke-width="1"></rect>
 
 
+<!---汽轮机工作面推力瓦温度---->
 <text x="270" y="605" fill="black" font-size="20" font-family="Arial">左</text>
 <text x="510" y="605" fill="black" font-size="20" font-family="Arial">右</text>
 <circle cx='400' cy='600' r='100' fill='none' stroke='black' stroke-width='2'></circle>
@@ -75,10 +76,29 @@
 <text x="340" y="675" fill="black" font-size="20" font-family="Arial">4</text>
 <text x="315" y="625" fill="black" font-size="20" font-family="Arial">5</text>
 <text x="315" y="590" fill="black" font-size="20" font-family="Arial">6</text>
+<text x="345" y="545" fill="black" font-size="20" font-family="Arial">7</text>
 <text x="395" y="525" fill="black" font-size="20" font-family="Arial">8</text>
+<text x="450" y="545" fill="black" font-size="20" font-family="Arial">9</text>
+<text x="395" y="690" fill="black" font-size="20" font-family="Arial">3</text>
+<!---汽轮机转速盘---->
+<text x="270" y="605" fill="black" font-size="20" font-family="Arial">左</text>
+<text x="510" y="605" fill="black" font-size="20" font-family="Arial">右</text>
+<circle cx='400' cy='850' r='100' fill='none' stroke='black' stroke-width='2'></circle>
+<line x1="300" y1="600" x2="500" y2="600" stroke="black" stroke-width="2"/>
+<text x="475" y="625" fill="black" font-size="20" font-family="Arial">1</text>
+<text x="450" y="675" fill="black" font-size="20" font-family="Arial">2</text>
+<text x="470" y="590" fill="black" font-size="20" font-family="Arial">10</text>
+<text x="340" y="675" fill="black" font-size="20" font-family="Arial">4</text>
+<text x="315" y="625" fill="black" font-size="20" font-family="Arial">5</text>
+<text x="315" y="590" fill="black" font-size="20" font-family="Arial">6</text>
+<text x="345" y="545" fill="black" font-size="20" font-family="Arial">7</text>
+<text x="395" y="525" fill="black" font-size="20" font-family="Arial">8</text>
+<text x="450" y="545" fill="black" font-size="20" font-family="Arial">9</text>
 <text x="395" y="690" fill="black" font-size="20" font-family="Arial">3</text>
 
-<text x="70" y="470" fill="black" font-size="20" font-family="Arial">汽轮机工作面推力瓦温度</text>
+<!---汽轮机工作面推力瓦温度---->
+<text x="280" y="440" fill="black" font-size="25" font-family="Arial">工作面推力瓦温度</text>
+<text x="130" y="470" fill="black" font-size="20" font-family="Arial">左侧接线盒</text>
 <line x1="100" y1="480" x2="100" y2="780" stroke="black" stroke-width="2"/>
 <line x1="150" y1="480" x2="150" y2="780" stroke="black" stroke-width="2"/>
 <line x1="250" y1="480" x2="250" y2="780" stroke="black" stroke-width="2"/>
@@ -103,6 +123,32 @@
 <line x1="100" y1="750" x2="250" y2="750" stroke="black" stroke-width="2"/>
 <text x="113" y="775" fill="black" font-size="18" font-family="Arial">10</text>
 <line x1="100" y1="780" x2="250" y2="780" stroke="black" stroke-width="2"/>
+
+<text x="580" y="470" fill="black" font-size="20" font-family="Arial">右侧接线盒</text>
+<line x1="550" y1="480" x2="550" y2="780" stroke="black" stroke-width="2"/>
+<line x1="600" y1="480" x2="600" y2="780" stroke="black" stroke-width="2"/>
+<line x1="700" y1="480" x2="700" y2="780" stroke="black" stroke-width="2"/>
+<line x1="550" y1="480" x2="700" y2="480" stroke="black" stroke-width="2"/>
+<text x="570" y="505" fill="black" font-size="18" font-family="Arial">1</text>
+<line x1="550" y1="510" x2="700" y2="510" stroke="black" stroke-width="2"/>
+<text x="570" y="535" fill="black" font-size="18" font-family="Arial">2</text>
+<line x1="550" y1="540" x2="700" y2="540" stroke="black" stroke-width="2"/>
+<text x="570" y="565" fill="black" font-size="18" font-family="Arial">3</text>
+<line x1="550" y1="570" x2="700" y2="570" stroke="black" stroke-width="2"/>
+<text x="570" y="595" fill="black" font-size="18" font-family="Arial">4</text>
+<line x1="550" y1="600" x2="700" y2="600" stroke="black" stroke-width="2"/>
+<text x="570" y="625" fill="black" font-size="18" font-family="Arial">5</text>
+<line x1="550" y1="630" x2="700" y2="630" stroke="black" stroke-width="2"/>
+<text x="570" y="655" fill="black" font-size="18" font-family="Arial">6</text>
+<line x1="550" y1="660" x2="700" y2="660" stroke="black" stroke-width="2"/>
+<text x="570" y="685" fill="black" font-size="18" font-family="Arial">7</text>
+<line x1="550" y1="690" x2="700" y2="690" stroke="black" stroke-width="2"/>
+<text x="570" y="715" fill="black" font-size="18" font-family="Arial">8</text>
+<line x1="550" y1="720" x2="700" y2="720" stroke="black" stroke-width="2"/>
+<text x="570" y="745" fill="black" font-size="18" font-family="Arial">9</text>
+<line x1="550" y1="750" x2="700" y2="750" stroke="black" stroke-width="2"/>
+<text x="563" y="775" fill="black" font-size="18" font-family="Arial">10</text>
+<line x1="550" y1="780" x2="700" y2="780" stroke="black" stroke-width="2"/>
 
 <rect x="1430" y="430" width="220" height="140" fill="none" stroke="black" stroke-width="1"></rect>
 <text x="1470" y="460" fill="black" font-size="20" font-family="Arial">发电机绕组温度</text>
